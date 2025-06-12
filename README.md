@@ -9,9 +9,9 @@
 - API integrations (REST APIs)
 
 ## My Projects
-🤖 CyberLearn : AI Based Cybersecurity Education Platform [https://cyber-edu-genius.lovable.app/]
-📽️ MovieProject : A Django REST API for Managing Movies [https://github.com/abhi-v-10/movieProject]
-🐈 CatGallery : A Responsive Web Page Showcasing Interactive Cat Images [https://github.com/abhi-v-10/cat-gallery]
+- 🤖 CyberLearn : AI Based Cybersecurity Education Platform [https://cyber-edu-genius.lovable.app/]
+- 📽️ MovieProject : A Django REST API for Managing Movies [https://github.com/abhi-v-10/movieProject]
+- 🐈 CatGallery : A Responsive Web Page Showcasing Interactive Cat Images [https://github.com/abhi-v-10/cat-gallery]
 
 ## 🛠️ Skills & Tools
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
