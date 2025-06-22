@@ -3,6 +3,8 @@
 🎓 B.Tech CSE | NxtWave Institute of Advanced Technologies  
 💡 Coding Enthusiast | Aspiring Learner  
 
+## 💻 My Portfolio
+- Visit my portfolio [https://abhi-ai-portfolio.lovable.app/]
 
 ## 📚 Currently Learning
 - Django for backend development (Python Framework)
