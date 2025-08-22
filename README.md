@@ -33,4 +33,4 @@
 ![Abhishyanth's GitHub Stats](https://github-readme-stats.vercel.app/api?username=abhi-v-10&show_icons=true&theme=github_dark)
 
 - 📫 [LinkedIn](https://www.linkedin.com/in/abhishyanth-v) 
-- ✉️ [Email](v.abhishyanth118@gmail.com)
+- ✉️ [Email](mailto:v.abhishyanth118@gmail.com)
