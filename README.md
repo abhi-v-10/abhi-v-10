@@ -15,6 +15,7 @@
 - 📽️ MovieProject : A Django REST API for Managing Movies [https://github.com/abhi-v-10/movieProject]
 - 🐈 CatGallery : A Responsive Web Page Showcasing Interactive Cat Images [https://github.com/abhi-v-10/cat-gallery]
 - 🖥️ MyPortfolio : My Personal AI made portfolio [https://abhi-ai-portfolio.lovable.app/]
+- 🏫 Scholaroid : A Complete School Management System [http://github.com/abhi-v-10/School-Management]
 
 ## 🛠️ Skills & Tools
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
