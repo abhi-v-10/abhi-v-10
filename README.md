@@ -27,6 +27,7 @@
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat&logo=sqlite)
 ![REST APIs](https://img.shields.io/badge/-REST%20APIs-00C7B7?style=flat&logo=api&logoColor=white)
+![Flask](https://img.shields.io/badge/-Flask-2D2D2D?style=flat&logo=flask&logoColor=white)
 
 
 ## 📈 GitHub Stats
