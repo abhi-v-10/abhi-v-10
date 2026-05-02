@@ -31,7 +31,7 @@
 
 
 ## 📈 GitHub Stats
-![Abhishyanth's GitHub Stats]github-readme-stats-zeta-three-62.vercel.app/api?username=abhi-v-10&show_icons=true&theme=github_dark)
+[![Abhishyanth's GitHub Stats]github-readme-stats-zeta-three-62.vercel.app/api?username=abhi-v-10&show_icons=true&theme=github_dark)]
 
 - 📫 [LinkedIn](https://www.linkedin.com/in/abhishyanth-v) 
 - ✉️ [Email](mailto:v.abhishyanth118@gmail.com)
