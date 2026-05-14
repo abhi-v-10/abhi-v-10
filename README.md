@@ -1,34 +1,43 @@
-# 👋 Hi, I'm Abhishyanth Vemula
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=47A1F7&width=435&lines=Hey%2C+I'm+Abhishyanth+Vemula;Welcome+to+my+github+profile)](https://git.io/typing-svg)
 
-🎓 B.Tech CSE | NxtWave Institute of Advanced Technologies  
-💡 Coding Enthusiast | Aspiring Learner  
+🎓 B.Tech CSE | NxtWave Innovation of Advanced Technologies  
+💡 Backend Developer | Passionate Learner 
 
-## 💻 My Portfolio
+## My Portfolio
 - Visit my portfolio [https://abhi-ai-portfolio.lovable.app/]
 
-## 📚 Currently Learning
-- Django for backend development (Python Framework)
-- API integrations (REST APIs)
+## Currently Learning
+- LangChain and AI Agents
+- Retrieval-Augmented Generation
+- Docker and Deployment
 
-## My Projects
-- 🤖 CyberLearn : AI Based Cybersecurity Education Platform [https://cyber-edu-genius.lovable.app/]
-- 📽️ MovieProject : A Django REST API for Managing Movies [https://github.com/abhi-v-10/movieProject]
-- 🐈 CatGallery : A Responsive Web Page Showcasing Interactive Cat Images [https://github.com/abhi-v-10/cat-gallery]
-- 🏫 Scholaroid : A Complete School Management System [http://github.com/abhi-v-10/School-Management]
+## My Featured Projects
+- Scholaroid : A Complete School Management System [http://github.com/abhi-v-10/School-Management]
+- CyberLearn : AI Based Cybersecurity Education Platform [https://cyber-edu-genius.lovable.app/]
+- MovieProject : A Django REST API for Managing Movies [https://github.com/abhi-v-10/movieProject]
+- ELI5 : A Chrome extension that simplifies complex text using AI [https://github.com/abhi-v-10/eli5]
 
-## 🛠️ Skills & Tools
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat&logo=django)
-![C](https://img.shields.io/badge/-C-00599C?style=flat&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat&logo=sqlite)
-![REST APIs](https://img.shields.io/badge/-REST%20APIs-00C7B7?style=flat&logo=api&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-2D2D2D?style=flat&logo=flask&logoColor=white)
+## Tech Stacks & Tools
+<img src="https://skillicons.dev/icons?i=py,django,flask,fastapi,c,cpp,html,css,js,ts,tailwind,sqlite,mongodb,postgres,postman,react,nodejs,expressjs,npm,git,github,linux&perline=11" />
+
+## GitHub Stats
+
+<p align="center">
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=abhi-v-10&theme=tokyonight"
+    alt="Abhishyanth's GitHub Streak Stats"
+  />
+</p>
 
 
-- 📫 [LinkedIn](https://www.linkedin.com/in/abhishyanth-v) 
-- ✉️ [Email](mailto:v.abhishyanth118@gmail.com)
+## Connect With Me
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/abhishyanth-v" target="_blank" style="margin-right: 10px;">
+    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:v.abhishyanth118@gmail.com" target="_blank">
+    <img src="https://skillicons.dev/icons?i=gmail" alt="Email" />
+  </a>
+</p>
