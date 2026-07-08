@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=47A1F7&width=435&lines=Hey%2C+I'm+Abhishyanth+Vemula;Welcome+to+my+github+profile)](https://git.io/typing-svg)
 
-🎓 B.Tech CSE | NxtWave Innovation of Advanced Technologies  
+🎓 B.Tech CSE | NxtWave of Innovation in Advanced Technologies  
 💡 Backend Developer | Passionate Learner 
 
 ## My Portfolio
