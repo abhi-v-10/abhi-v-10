@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="214" viewBox="0 0 1200 214" role="img" aria-labelledby="avp2-t">
+  <title id="avp2-t">IRIS — Reads photos, scans and PDFs of invoices and receipts with OCR, extracts vendor, date, line items, tax and total, checks the numbers add up, and charts where the money goes. Built with Python, Flask, Tesseract OCR, OpenCV.</title>
+  <defs>
+    <linearGradient id="avp2-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030A1C"/><stop offset=".6" stop-color="#071634"/><stop offset="1" stop-color="#0A1F4D"/>
+    </linearGradient>
+    <linearGradient id="avp2-edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E6BFF" stop-opacity=".85"/><stop offset=".5" stop-color="#0B2A66" stop-opacity=".6"/><stop offset="1" stop-color="#5CD6FF" stop-opacity=".7"/>
+    </linearGradient>
+    <linearGradient id="avp2-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1E6BFF" stop-opacity="0"/><stop offset=".5" stop-color="#3D9BFF"/><stop offset="1" stop-color="#5CD6FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="avp2-aura" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#1E6BFF" stop-opacity=".35"/><stop offset="1" stop-color="#1E6BFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="avp2-grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#3D9BFF" stroke-opacity=".07" stroke-width=".6"/>
+    </pattern>
+    <filter id="avp2-glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4"/></filter>
+    <clipPath id="avp2-clip"><rect width="1200" height="214" rx="16"/></clipPath>
+    <linearGradient id="avp2-num" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5CD6FF"/><stop offset="1" stop-color="#1448C8"/></linearGradient>
+  </defs>
+  <g clip-path="url(#avp2-clip)">
+    <rect width="1200" height="214" fill="url(#avp2-bg)"/>
+    <rect width="1200" height="214" fill="url(#avp2-grid)"/>
+  </g>
+  <circle cx="1010" cy="107" r="150" fill="url(#avp2-aura)"/>
+  <g transform="translate(1010 107)"><rect x="-140" y="-56" width="70" height="92" rx="6" fill="#0B2A66" fill-opacity=".5" stroke="#3D9BFF" stroke-opacity=".7"/>
+    <rect x="-128" y="-40" width="46" height="4" rx="2" fill="#BFE0FF" fill-opacity=".6"/><rect x="-128" y="-26" width="34" height="4" rx="2" fill="#BFE0FF" fill-opacity=".6"/><rect x="-128" y="-12" width="46" height="4" rx="2" fill="#BFE0FF" fill-opacity=".6"/><rect x="-128" y="2" width="34" height="4" rx="2" fill="#BFE0FF" fill-opacity=".6"/><rect x="-128" y="16" width="46" height="4" rx="2" fill="#BFE0FF" fill-opacity=".6"/>
+    <path d="M -58 -10 H -22 m -8 -8 l 8 8 l -8 8" stroke="#5CD6FF" stroke-width="2" fill="none"/>
+    <text x="-40" y="-22" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="10" fill="#3D9BFF">OCR</text>
+    <rect x="40" y="-8" width="20" height="38" rx="4" fill="#1E6BFF" fill-opacity="0.45"/><rect x="70" y="-32" width="20" height="62" rx="4" fill="#1E6BFF" fill-opacity="0.65"/><rect x="100" y="-54" width="20" height="84" rx="4" fill="#1E6BFF" fill-opacity="0.9"/>
+    <rect x="30" y="34" width="100" height="2" fill="#3D9BFF" fill-opacity=".6"/></g>
+  <text x="32" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" fill="url(#avp2-num)" fill-opacity=".9">02</text>
+  <text x="130" y="42" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#3D9BFF">OCR · DOCUMENT INTELLIGENCE</text>
+  <text x="130" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#EEF6FF">IRIS</text>
+  <text x="130" y="106" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#BFE0FF" fill-opacity=".88">Reads photos, scans and PDFs of invoices and receipts with OCR, extracts vendor, date, line</text>
+  <text x="130" y="128" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#BFE0FF" fill-opacity=".88">items, tax and total, checks the numbers add up, and charts where the money goes.</text>
+  <rect x="130" y="158" width="67" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
+    <text x="163.5" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Python</text><rect x="205" y="158" width="60" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
+    <text x="235" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Flask</text><rect x="273" y="158" width="116" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
+    <text x="331" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Tesseract OCR</text><rect x="397" y="158" width="67" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
+    <text x="430.5" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">OpenCV</text>
+  <rect x=".75" y=".75" width="1198.5" height="212.5" rx="15.25" fill="none" stroke="url(#avp2-edge)" stroke-width="1.5"/>
+</svg>

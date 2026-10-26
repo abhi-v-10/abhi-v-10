@@ -2,20 +2,20 @@
   <title id="avf-t">Thanks for stopping by</title>
   <defs>
     <linearGradient id="avf-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#10070C"/><stop offset="1" stop-color="#2A0F1C"/>
+      <stop offset="0" stop-color="#030A1C"/><stop offset="1" stop-color="#0A1F4D"/>
     </linearGradient>
     <linearGradient id="avf-wave" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#701A3D" stop-opacity="0"/><stop offset=".5" stop-color="#C77B9B"/><stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+      <stop offset="0" stop-color="#1E6BFF" stop-opacity="0"/><stop offset=".5" stop-color="#5CD6FF"/><stop offset="1" stop-color="#1E6BFF" stop-opacity="0"/>
     </linearGradient>
     <filter id="avf-glow" x="-10%" y="-200%" width="120%" height="500%"><feGaussianBlur stdDeviation="4"/></filter>
     <clipPath id="avf-clip"><rect width="1200" height="130" rx="18"/></clipPath>
   </defs>
   <g clip-path="url(#avf-clip)">
     <rect width="1200" height="130" fill="url(#avf-bg)"/>
-    <path d="M 0 92 C 150 62, 300 112, 450 88 S 750 60, 900 90 S 1100 112, 1200 80" fill="none" stroke="url(#avf-wave)" stroke-width="3" opacity=".7" filter="url(#avf-glow)"/>
+    <path d="M 0 92 C 150 62, 300 112, 450 88 S 750 60, 900 90 S 1100 112, 1200 80" fill="none" stroke="url(#avf-wave)" stroke-width="3" opacity=".8" filter="url(#avf-glow)"/>
     <path d="M 0 92 C 150 62, 300 112, 450 88 S 750 60, 900 90 S 1100 112, 1200 80" pathLength="1000" fill="none" stroke="url(#avf-wave)" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="1000 0">
     </path>
-    <text x="600" y="46" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="22" fill="#E5B5C7">Thanks for stopping by.</text>
-    <text x="600" y="68" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="3" fill="#C77B9B" fill-opacity=".8">ABHISHYANTH VEMULA · @ABHI-V-10</text>
+    <text x="600" y="46" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="22" fill="#BFE0FF">Thanks for stopping by.</text>
+    <text x="600" y="68" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="3" fill="#3D9BFF" fill-opacity=".85">ABHISHYANTH VEMULA · @ABHI-V-10</text>
   </g>
 </svg>

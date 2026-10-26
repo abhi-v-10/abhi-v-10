@@ -18,15 +18,17 @@ const USER = "abhi-v-10";
 const OUT = resolve(dirname(fileURLToPath(import.meta.url)), "..", "assets");
 
 const C = {
-  midnight: "#10070C",
-  wine: "#190B12",
-  burgundy: "#451126",
-  accent: "#701A3D",
-  rose: "#C77B9B",
-  pale: "#E5B5C7",
-  ivory: "#F8F0F3",
+  bg0: "#030A1C",
+  bg1: "#071634",
+  navy: "#0B2A66",
+  royal: "#1448C8",
+  electric: "#1E6BFF",
+  bright: "#3D9BFF",
+  cyan: "#5CD6FF",
+  ice: "#BFE0FF",
+  white: "#EEF6FF",
 };
-const LEVELS = ["#2A1520", C.burgundy, C.accent, C.rose, C.pale];
+const LEVELS = ["#0E1D3D", C.navy, C.royal, C.bright, C.cyan];
 const SANS = "'Segoe UI', 'Helvetica Neue', Arial, sans-serif";
 const MONO = "'SFMono-Regular', Consolas, 'Liberation Mono', monospace";
 
@@ -74,6 +76,7 @@ function heatmapSvg({ days, total }, updated) {
   const H = padT + 7 * pitch + 58;
 
   let cells = "";
+  let glowCells = "";
   let lastMonth = -1;
   const monthLabels = [];
   for (const d of days) {
@@ -83,6 +86,7 @@ function heatmapSvg({ days, total }, updated) {
     const x = padL + col * pitch, y = padT + row * pitch;
     const label = `${d.count} contribution${d.count === 1 ? "" : "s"} on ${d.date}`;
     cells += `<rect x="${x}" y="${y}" width="${cell}" height="${cell}" rx="3" fill="${LEVELS[d.level]}"><title>${esc(label)}</title></rect>`;
+    if (d.level >= 3) glowCells += `<rect x="${x}" y="${y}" width="${cell}" height="${cell}" rx="3" fill="${LEVELS[d.level]}"/>`;
     if (row === 0 && dt.getUTCMonth() !== lastMonth) {
       lastMonth = dt.getUTCMonth();
       const name = dt.toLocaleString("en-US", { month: "short", timeZone: "UTC" });
@@ -103,19 +107,21 @@ function heatmapSvg({ days, total }, updated) {
   <desc id="avc-d">${total} contributions in the last year, generated from public GitHub data on ${updated}.</desc>
   <defs>
     <linearGradient id="avc-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="${C.wine}"/><stop offset="1" stop-color="${C.midnight}"/>
+      <stop offset="0" stop-color="${C.bg1}"/><stop offset="1" stop-color="${C.bg0}"/>
     </linearGradient>
     <linearGradient id="avc-line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="${C.accent}" stop-opacity="0"/><stop offset=".5" stop-color="${C.rose}"/><stop offset="1" stop-color="${C.accent}" stop-opacity="0"/>
+      <stop offset="0" stop-color="${C.royal}" stop-opacity="0"/><stop offset=".5" stop-color="${C.bright}"/><stop offset="1" stop-color="${C.royal}" stop-opacity="0"/>
     </linearGradient>
+    <filter id="avc-glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3.5"/></filter>
   </defs>
-  <rect width="${W}" height="${H}" rx="14" fill="url(#avc-bg)" stroke="${C.burgundy}"/>
-  <text x="${padL}" y="36" font-family="${SANS}" font-size="15" font-weight="600" fill="${C.ivory}">${total} contributions in the last year</text>
-  <text x="${W - 22}" y="36" text-anchor="end" font-family="${MONO}" font-size="11" fill="${C.rose}">live data · github.com/${USER}</text>
+  <rect width="${W}" height="${H}" rx="14" fill="url(#avc-bg)" stroke="${C.electric}" stroke-opacity=".6"/>
+  <text x="${padL}" y="36" font-family="${SANS}" font-size="15" font-weight="600" fill="${C.white}">${total} contributions in the last year</text>
+  <text x="${W - 22}" y="36" text-anchor="end" font-family="${MONO}" font-size="11" fill="${C.bright}">live data · github.com/${USER}</text>
   <rect x="${padL}" y="46" width="${W - padL - 22}" height="1.5" fill="url(#avc-line)"/>
-  <g font-family="${SANS}" font-size="10" fill="${C.rose}">${months}${dayLabels}</g>
+  <g font-family="${SANS}" font-size="10" fill="${C.bright}">${months}${dayLabels}</g>
+  <g filter="url(#avc-glow)" opacity=".85">${glowCells}</g>
   ${cells}
-  <g font-family="${SANS}" font-size="10" fill="${C.rose}">
+  <g font-family="${SANS}" font-size="10" fill="${C.bright}">
     <text x="${padL}" y="${H - 24}">Updated ${updated} (UTC)</text>
     <text x="${legendX + 28}" y="${H - 24}" text-anchor="end">Less</text>
     <text x="${legendX + 34 + 5 * pitch + 3}" y="${H - 24}">More</text>
@@ -143,17 +149,17 @@ function statsSvg({ profile, repos, total }, updated) {
   ];
   const colW = (W - 80) / 4;
   const kpiSvg = kpis
-    .map(([v, l], i) => `<g transform="translate(${40 + i * colW} 92)"><text font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="${C.ivory}">${v}</text><text y="24" font-family="${SANS}" font-size="12" fill="${C.rose}">${esc(l)}</text></g>`)
+    .map(([v, l], i) => `<g transform="translate(${40 + i * colW} 92)"><text font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="${C.white}">${v}</text><text y="24" font-family="${SANS}" font-size="12" fill="${C.bright}">${esc(l)}</text></g>`)
     .join("");
   const barX = 190, barW = W - barX - 90;
   const bars = langs
     .map(([name, n], i) => {
       const y = 190 + i * rowH;
       const w = Math.max(6, Math.round((n / max) * barW));
-      return `<text x="40" y="${y + 11}" font-family="${SANS}" font-size="12" fill="${C.pale}">${esc(name)}</text>
-    <rect x="${barX}" y="${y}" width="${barW}" height="12" rx="6" fill="${C.burgundy}" fill-opacity=".55"/>
+      return `<text x="40" y="${y + 11}" font-family="${SANS}" font-size="12" fill="${C.ice}">${esc(name)}</text>
+    <rect x="${barX}" y="${y}" width="${barW}" height="12" rx="6" fill="${C.navy}" fill-opacity=".55"/>
     <rect x="${barX}" y="${y}" width="${w}" height="12" rx="6" fill="url(#avs-bar)"/>
-    <text x="${barX + barW + 14}" y="${y + 11}" font-family="${MONO}" font-size="11" fill="${C.rose}">${n} repo${n === 1 ? "" : "s"}</text>`;
+    <text x="${barX + barW + 14}" y="${y + 11}" font-family="${MONO}" font-size="11" fill="${C.bright}">${n} repo${n === 1 ? "" : "s"}</text>`;
     })
     .join("\n    ");
 
@@ -162,23 +168,23 @@ function statsSvg({ profile, repos, total }, updated) {
   <desc id="avs-d">${own.length} public repositories, ${stars} stars, ${profile.followers} followers and ${total} contributions in the last year, from public GitHub data on ${updated}.</desc>
   <defs>
     <linearGradient id="avs-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="${C.wine}"/><stop offset="1" stop-color="${C.midnight}"/>
+      <stop offset="0" stop-color="${C.bg1}"/><stop offset="1" stop-color="${C.bg0}"/>
     </linearGradient>
     <linearGradient id="avs-bar" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="${C.accent}"/><stop offset="1" stop-color="${C.rose}"/>
+      <stop offset="0" stop-color="${C.royal}"/><stop offset="1" stop-color="${C.bright}"/>
     </linearGradient>
     <linearGradient id="avs-line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="${C.accent}" stop-opacity="0"/><stop offset=".5" stop-color="${C.rose}"/><stop offset="1" stop-color="${C.accent}" stop-opacity="0"/>
+      <stop offset="0" stop-color="${C.royal}" stop-opacity="0"/><stop offset=".5" stop-color="${C.bright}"/><stop offset="1" stop-color="${C.royal}" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect width="${W}" height="${H}" rx="14" fill="url(#avs-bg)" stroke="${C.burgundy}"/>
-  <text x="40" y="38" font-family="${SANS}" font-size="15" font-weight="600" fill="${C.ivory}">GitHub at a glance</text>
-  <text x="${W - 40}" y="38" text-anchor="end" font-family="${MONO}" font-size="11" fill="${C.rose}">public API · @${USER}</text>
+  <rect width="${W}" height="${H}" rx="14" fill="url(#avs-bg)" stroke="${C.electric}" stroke-opacity=".6"/>
+  <text x="40" y="38" font-family="${SANS}" font-size="15" font-weight="600" fill="${C.white}">GitHub at a glance</text>
+  <text x="${W - 40}" y="38" text-anchor="end" font-family="${MONO}" font-size="11" fill="${C.bright}">public API · @${USER}</text>
   <rect x="40" y="52" width="${W - 80}" height="1.5" fill="url(#avs-line)"/>
   ${kpiSvg}
-  <text x="40" y="164" font-family="${MONO}" font-size="11" letter-spacing="1.5" fill="${C.rose}">REPOSITORIES BY PRIMARY LANGUAGE</text>
+  <text x="40" y="164" font-family="${MONO}" font-size="11" letter-spacing="1.5" fill="${C.bright}">REPOSITORIES BY PRIMARY LANGUAGE</text>
   ${bars}
-  <text x="40" y="${H - 18}" font-family="${SANS}" font-size="10" fill="${C.rose}" fill-opacity=".8">Counts of non-fork public repositories, not lines of code. Updated ${updated} (UTC).</text>
+  <text x="40" y="${H - 18}" font-family="${SANS}" font-size="10" fill="${C.bright}" fill-opacity=".8">Counts of non-fork public repositories, not lines of code. Updated ${updated} (UTC).</text>
 </svg>
 `;
 }

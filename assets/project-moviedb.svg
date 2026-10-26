@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="214" viewBox="0 0 1200 214" role="img" aria-labelledby="avp5-t">
+  <title id="avp5-t">MovieDB — Movie platform with CRUD, a personal watchlist, Stripe-powered premium membership, a Gemini movie assistant for premium users and a JWT-secured REST API. Built with Django, REST APIs, JWT, Stripe, Gemini.</title>
+  <defs>
+    <linearGradient id="avp5-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030A1C"/><stop offset=".6" stop-color="#071634"/><stop offset="1" stop-color="#0A1F4D"/>
+    </linearGradient>
+    <linearGradient id="avp5-edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E6BFF" stop-opacity=".85"/><stop offset=".5" stop-color="#0B2A66" stop-opacity=".6"/><stop offset="1" stop-color="#5CD6FF" stop-opacity=".7"/>
+    </linearGradient>
+    <linearGradient id="avp5-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1E6BFF" stop-opacity="0"/><stop offset=".5" stop-color="#3D9BFF"/><stop offset="1" stop-color="#5CD6FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="avp5-aura" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#1E6BFF" stop-opacity=".35"/><stop offset="1" stop-color="#1E6BFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="avp5-grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#3D9BFF" stroke-opacity=".07" stroke-width=".6"/>
+    </pattern>
+    <filter id="avp5-glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4"/></filter>
+    <clipPath id="avp5-clip"><rect width="1200" height="214" rx="16"/></clipPath>
+    <linearGradient id="avp5-num" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5CD6FF"/><stop offset="1" stop-color="#1448C8"/></linearGradient>
+  </defs>
+  <g clip-path="url(#avp5-clip)">
+    <rect width="1200" height="214" fill="url(#avp5-bg)"/>
+    <rect width="1200" height="214" fill="url(#avp5-grid)"/>
+  </g>
+  <circle cx="1010" cy="107" r="150" fill="url(#avp5-aura)"/>
+  <g transform="translate(1010 107)"><rect x="-120" y="-56" width="240" height="112" rx="10" fill="#0B2A66" fill-opacity=".5" stroke="#3D9BFF" stroke-opacity=".7"/>
+    <rect x="-100" y="-50" width="14" height="8" rx="2" fill="#BFE0FF" fill-opacity=".35"/><rect x="-100" y="42" width="14" height="8" rx="2" fill="#BFE0FF" fill-opacity=".35"/><rect x="-70" y="-50" width="14" height="8" rx="2" fill="#BFE0FF" fill-opacity=".35"/><rect x="-70" y="42" width="14" height="8" rx="2" fill="#BFE0FF" fill-opacity=".35"/><rect x="-40" y="-50" width="14" height="8" rx="2" fill="#BFE0FF" fill-opacity=".35"/><rect x="-40" y="42" width="14" height="8" rx="2" fill="#BFE0FF" fill-opacity=".35"/><rect x="-10" y="-50" width="14" height="8" rx="2" fill="#BFE0FF" fill-opacity=".35"/><rect x="-10" y="42" width="14" height="8" rx="2" fill="#BFE0FF" fill-opacity=".35"/><rect x="20" y="-50" width="14" height="8" rx="2" fill="#BFE0FF" fill-opacity=".35"/><rect x="20" y="42" width="14" height="8" rx="2" fill="#BFE0FF" fill-opacity=".35"/><rect x="50" y="-50" width="14" height="8" rx="2" fill="#BFE0FF" fill-opacity=".35"/><rect x="50" y="42" width="14" height="8" rx="2" fill="#BFE0FF" fill-opacity=".35"/><rect x="80" y="-50" width="14" height="8" rx="2" fill="#BFE0FF" fill-opacity=".35"/><rect x="80" y="42" width="14" height="8" rx="2" fill="#BFE0FF" fill-opacity=".35"/>
+    <circle r="24" fill="#1E6BFF" fill-opacity=".4" stroke="#5CD6FF"/>
+    <path d="M -7 -12 L 14 0 L -7 12 Z" fill="#EEF6FF"/></g>
+  <text x="32" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" fill="url(#avp5-num)" fill-opacity=".9">05</text>
+  <text x="130" y="42" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#3D9BFF">DJANGO · REST API</text>
+  <text x="130" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#EEF6FF">MovieDB</text>
+  <text x="130" y="106" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#BFE0FF" fill-opacity=".88">Movie platform with CRUD, a personal watchlist, Stripe-powered premium membership, a Gemini</text>
+  <text x="130" y="128" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#BFE0FF" fill-opacity=".88">movie assistant for premium users and a JWT-secured REST API.</text>
+  <rect x="130" y="158" width="67" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
+    <text x="163.5" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Django</text><rect x="205" y="158" width="88" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
+    <text x="249" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">REST APIs</text><rect x="301" y="158" width="45" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
+    <text x="323.5" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">JWT</text><rect x="354" y="158" width="67" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
+    <text x="387.5" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Stripe</text><rect x="429" y="158" width="67" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
+    <text x="462.5" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Gemini</text>
+  <rect x=".75" y=".75" width="1198.5" height="212.5" rx="15.25" fill="none" stroke="url(#avp5-edge)" stroke-width="1.5"/>
+</svg>
