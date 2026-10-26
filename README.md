@@ -4,16 +4,15 @@
 </picture>
 
 <p align="center">
-  <a href="https://abhi-ai-portfolio.lovable.app/"><img src="https://img.shields.io/badge/Portfolio-abhi--ai--portfolio-8B5CF6?style=for-the-badge&labelColor=120A2B" alt="Portfolio website"></a>
-  <a href="https://www.linkedin.com/in/abhishyanth-v"><img src="https://img.shields.io/badge/LinkedIn-abhishyanth--v-8B5CF6?style=for-the-badge&labelColor=120A2B" alt="LinkedIn profile abhishyanth-v"></a>
-  <a href="mailto:v.abhishyanth118@gmail.com"><img src="https://img.shields.io/badge/Email-v.abhishyanth118%40gmail.com-8B5CF6?style=for-the-badge&labelColor=120A2B&logo=gmail&logoColor=F7F2FF" alt="Email v.abhishyanth118@gmail.com"></a>
+  <a href="https://github.com/abhi-v-10"><img src="assets/btn-github.svg" height="44" alt="GitHub"></a>&nbsp;
+  <a href="https://www.linkedin.com/in/abhishyanth-v"><img src="assets/btn-linkedin.svg" height="44" alt="LinkedIn"></a>&nbsp;
+  <a href="https://abhi-ai-portfolio.lovable.app/"><img src="assets/btn-portfolio.svg" height="44" alt="Portfolio"></a>&nbsp;
+  <a href="mailto:v.abhishyanth118@gmail.com"><img src="assets/btn-email.svg" height="44" alt="Email"></a>
 </p>
 
 <img src="assets/title-about.svg" width="100%" alt="01 About — Hello, I'm Abhishyanth.">
 
-I'm a third-year B.Tech Computer Science student in Hyderabad. Backend is home: Python, Django, DRF and FastAPI, and more and more AI agents that call tools and return structured results. I learn by building whole systems, from the database and API to the interface and deployment.
-
-<img src="assets/about.svg" width="100%" alt="B.Tech Computer Science, 3rd year, at Chaitanya Deemed to be University with NIAT, 2024 to 2028, GPA 9.3. AI Backend Engineer Intern at Nestafar Technologies, January to March 2026, building AI agents on live backend data with Python, Django, FastAPI and FastMCP. Exploring advanced AI agents, LLM app architecture, retrieval systems, Three.js and WebGL, cloud deployment and DSA in C++.">
+<img src="assets/about.svg" width="100%" alt="B.Tech Computer Science, 3rd year, at Chaitanya Deemed to be University with NIAT, 2024 to 2028, GPA 9.3. AI Backend Engineer Intern at Nestafar Technologies, January to March 2026. Built JobSeek, IRIS, Scholaroid, ELI5, MovieDB and QP-Gen. Primary language Python; exploring AI agents, retrieval systems and 3D on the web.">
 
 <img src="assets/title-achievements.svg" width="100%" alt="02 Recognition — Milestones so far.">
 <img src="assets/achievements.svg" width="100%" alt="Best Team Member Award, NIAT Student General Council, April 2026. Certificate of Internship, Nestafar Technologies, April 2026. INSPIRA'25 24-hour hackathon, IIT Hyderabad, 2025. UI/UX Mega Workshop, NxtWave, December 2024. BuildWithIndia Hackathon participation, HackWithIndia and Google.">
@@ -22,33 +21,33 @@ I'm a third-year B.Tech Computer Science student in Hyderabad. Backend is home: 
 
 <a href="https://github.com/abhi-v-10/JobSeek"><img src="assets/project-jobseek.svg" width="100%" alt="JobSeek: full-stack job portal with search, applications, messaging and SeekBot AI, a FastAPI career agent. React, TypeScript, Django REST Framework, FastAPI."></a>
 <p align="center">
-  <a href="https://github.com/abhi-v-10/JobSeek"><img src="https://img.shields.io/badge/Repository-JobSeek-8B5CF6?style=for-the-badge&labelColor=120A2B&logo=github&logoColor=F7F2FF" alt="JobSeek repository"></a>
+  <a href="https://github.com/abhi-v-10/JobSeek"><img src="assets/btn-repo.svg" height="44" alt="JobSeek repository"></a>
 </p>
 
 <a href="https://github.com/abhi-v-10/IRIS"><img src="assets/project-iris.svg" width="100%" alt="IRIS: invoice and receipt intelligence. OCR extraction of vendor, date, line items, tax and total, with a spending dashboard. Python, Flask, Tesseract OCR, OpenCV."></a>
 <p align="center">
-  <a href="https://github.com/abhi-v-10/IRIS"><img src="https://img.shields.io/badge/Repository-IRIS-8B5CF6?style=for-the-badge&labelColor=120A2B&logo=github&logoColor=F7F2FF" alt="IRIS repository"></a>
-  <a href="https://iris-amdd.onrender.com"><img src="https://img.shields.io/badge/Live_demo-iris--amdd.onrender.com-8B5CF6?style=for-the-badge&labelColor=120A2B" alt="IRIS live demo"></a>
+  <a href="https://github.com/abhi-v-10/IRIS"><img src="assets/btn-repo.svg" height="44" alt="IRIS repository"></a>&nbsp;
+  <a href="https://iris-amdd.onrender.com"><img src="assets/btn-demo.svg" height="44" alt="IRIS live demo"></a>
 </p>
 
 <a href="https://github.com/abhi-v-10/Scholaroid"><img src="assets/project-scholaroid.svg" width="100%" alt="Scholaroid: role-based school management system with dashboards for admins, teachers, students and parents. Django, Python, PostgreSQL, Google OAuth2."></a>
 <p align="center">
-  <a href="https://github.com/abhi-v-10/Scholaroid"><img src="https://img.shields.io/badge/Repository-Scholaroid-8B5CF6?style=for-the-badge&labelColor=120A2B&logo=github&logoColor=F7F2FF" alt="Scholaroid repository"></a>
+  <a href="https://github.com/abhi-v-10/Scholaroid"><img src="assets/btn-repo.svg" height="44" alt="Scholaroid repository"></a>
 </p>
 
 <a href="https://github.com/abhi-v-10/eli5"><img src="assets/project-eli5.svg" width="100%" alt="ELI5: Chrome extension that simplifies complex text with AI, with text selection and screenshot OCR input. JavaScript, Manifest V3, FastAPI, Tesseract.js."></a>
 <p align="center">
-  <a href="https://github.com/abhi-v-10/eli5"><img src="https://img.shields.io/badge/Repository-ELI5-8B5CF6?style=for-the-badge&labelColor=120A2B&logo=github&logoColor=F7F2FF" alt="ELI5 repository"></a>
+  <a href="https://github.com/abhi-v-10/eli5"><img src="assets/btn-repo.svg" height="44" alt="ELI5 repository"></a>
 </p>
 
 <a href="https://github.com/abhi-v-10/MovieDB"><img src="assets/project-moviedb.svg" width="100%" alt="MovieDB: Django movie platform with watchlist, Stripe premium membership, a Gemini movie assistant and a JWT-secured REST API."></a>
 <p align="center">
-  <a href="https://github.com/abhi-v-10/MovieDB"><img src="https://img.shields.io/badge/Repository-MovieDB-8B5CF6?style=for-the-badge&labelColor=120A2B&logo=github&logoColor=F7F2FF" alt="MovieDB repository"></a>
+  <a href="https://github.com/abhi-v-10/MovieDB"><img src="assets/btn-repo.svg" height="44" alt="MovieDB repository"></a>
 </p>
 
 <a href="https://github.com/Paardhu22/qp-gen"><img src="assets/project-qpgen.svg" width="100%" alt="QP-Gen: team project. AI-native, CBSE-compliant question-paper generator built with Django, Next.js, PostgreSQL with pgvector and OpenAI."></a>
 <p align="center">
-  <a href="https://github.com/Paardhu22/qp-gen"><img src="https://img.shields.io/badge/Repository-QP--Gen_(team)-8B5CF6?style=for-the-badge&labelColor=120A2B&logo=github&logoColor=F7F2FF" alt="QP-Gen repository, hosted on a teammate's account"></a>
+  <a href="https://github.com/Paardhu22/qp-gen"><img src="assets/btn-repo.svg" height="44" alt="QP-Gen repository, hosted on a teammate's account"></a>
 </p>
 
 <img src="assets/in-progress.svg" width="100%" alt="In progress: AV, The Forge, a 3D portfolio built with React, React Three Fiber, Three.js and a core modelled in Blender. The repository is private for now.">
@@ -68,12 +67,16 @@ I'm a third-year B.Tech Computer Science student in Hyderabad. Backend is home: 
 
 <img src="assets/title-connect.svg" width="100%" alt="06 Connect — Let's build something.">
 
-<p align="center">
-  <a href="https://github.com/abhi-v-10"><img src="https://img.shields.io/badge/GitHub-abhi--v--10-8B5CF6?style=for-the-badge&labelColor=120A2B&logo=github&logoColor=F7F2FF" alt="GitHub profile abhi-v-10"></a>
-  <a href="https://www.linkedin.com/in/abhishyanth-v"><img src="https://img.shields.io/badge/LinkedIn-abhishyanth--v-8B5CF6?style=for-the-badge&labelColor=120A2B" alt="LinkedIn profile abhishyanth-v"></a>
-  <a href="https://abhi-ai-portfolio.lovable.app/"><img src="https://img.shields.io/badge/Portfolio-abhi--ai--portfolio-8B5CF6?style=for-the-badge&labelColor=120A2B" alt="Portfolio website"></a>
-  <a href="mailto:v.abhishyanth118@gmail.com"><img src="https://img.shields.io/badge/Email-v.abhishyanth118%40gmail.com-8B5CF6?style=for-the-badge&labelColor=120A2B&logo=gmail&logoColor=F7F2FF" alt="Email v.abhishyanth118@gmail.com"></a>
-</p>
+<table width="100%">
+  <tr>
+    <td width="50%"><a href="https://github.com/abhi-v-10"><img src="assets/contact-github.svg" width="100%" alt="GitHub: abhi-v-10"></a></td>
+    <td width="50%"><a href="https://www.linkedin.com/in/abhishyanth-v"><img src="assets/contact-linkedin.svg" width="100%" alt="LinkedIn: abhishyanth-v"></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://abhi-ai-portfolio.lovable.app/"><img src="assets/contact-portfolio.svg" width="100%" alt="Portfolio: abhi-ai-portfolio.lovable.app"></a></td>
+    <td width="50%"><a href="mailto:v.abhishyanth118@gmail.com"><img src="assets/contact-email.svg" width="100%" alt="Email: v.abhishyanth118@gmail.com"></a></td>
+  </tr>
+</table>
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/footer-static.svg">

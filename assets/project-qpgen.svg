@@ -1,46 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="214" viewBox="0 0 1200 214" role="img" aria-labelledby="avp6-t">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 214" width="1200" height="214" role="img" aria-labelledby="avp6-t">
   <title id="avp6-t">QP-Gen — AI-native, CBSE-compliant question-paper generator. Turns a textbook chapter into a paper with the right marks, sections and question mix, streamed into an editor for export. Built with Django, Next.js, PostgreSQL + pgvector, OpenAI. Repository is hosted on a teammate's account.</title>
   <defs>
-    <linearGradient id="avp6-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#08051A"/><stop offset=".6" stop-color="#120A2B"/><stop offset="1" stop-color="#22104F"/>
-    </linearGradient>
-    <linearGradient id="avp6-edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".85"/><stop offset=".5" stop-color="#2B1263" stop-opacity=".6"/><stop offset="1" stop-color="#E879F9" stop-opacity=".7"/>
-    </linearGradient>
-    <linearGradient id="avp6-line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/><stop offset=".5" stop-color="#B197FC"/><stop offset="1" stop-color="#E879F9" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="avp6-aura" cx=".5" cy=".5" r=".5">
-      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".35"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="avp6-grid" width="26" height="26" patternUnits="userSpaceOnUse">
-      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#B197FC" stroke-opacity=".07" stroke-width=".6"/>
-    </pattern>
-    <filter id="avp6-glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4"/></filter>
-    <clipPath id="avp6-clip"><rect width="1200" height="214" rx="16"/></clipPath>
-    <linearGradient id="avp6-num" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E879F9"/><stop offset="1" stop-color="#5B2BD6"/></linearGradient>
-  </defs>
+    <linearGradient id="avp6-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#11132B"/><stop offset="1" stop-color="#090A1C"/></linearGradient>
+    <radialGradient id="avp6-glow" cx="88%" cy="40%" r="65%"><stop offset="0" stop-color="#4B45C6" stop-opacity=".5"/><stop offset="1" stop-color="#272A6B" stop-opacity="0"/></radialGradient>
+    <linearGradient id="avp6-tracegrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F3F2FB"/><stop offset=".5" stop-color="#A99BFF"/><stop offset="1" stop-color="#7C6CF0" stop-opacity="0"/></linearGradient>
+    <pattern id="avp6-grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#A99BFF" stroke-opacity=".06"/></pattern>
+    <filter id="avp6-blur" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4"/></filter>
+    <clipPath id="avp6-clip"><rect width="1200" height="214" rx="16"/></clipPath><linearGradient id="avp6-num" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C4B8FF"/><stop offset="1" stop-color="#4B45C6"/></linearGradient>
+    <radialGradient id="avp6-aura" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#7C6CF0" stop-opacity=".28"/><stop offset="1" stop-color="#7C6CF0" stop-opacity="0"/></radialGradient></defs>
+  <style>
+    .avp6-serif { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif; }
+    .avp6-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+    .avp6-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .avp6-in { animation: avp6-in 1s cubic-bezier(.16,1,.3,1) both; }
+    .avp6-chip { animation: avp6-chip .7s cubic-bezier(.34,1.56,.64,1) both; }
+    .avp6-draw { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: avp6-draw 1.8s cubic-bezier(.65,0,.35,1) .5s forwards; }
+    .avp6-trace { stroke-dasharray: 150 850; animation: avp6-trace 9s linear infinite; }
+    @keyframes avp6-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes avp6-chip { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    @keyframes avp6-draw { to { stroke-dashoffset: 0; } }
+    @keyframes avp6-trace { from { stroke-dashoffset: 1000; } to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .avp6-in, .avp6-chip { animation: none; } .avp6-draw { animation: none; stroke-dashoffset: 0; } .avp6-trace { display: none; } }
+    
+  </style>
+
   <g clip-path="url(#avp6-clip)">
     <rect width="1200" height="214" fill="url(#avp6-bg)"/>
-    <rect width="1200" height="214" fill="url(#avp6-grid)"/>
+    <rect x="760" width="440" height="214" fill="url(#avp6-grid)"/>
+    <rect width="1200" height="214" fill="url(#avp6-glow)"/>
   </g>
   <circle cx="1010" cy="107" r="150" fill="url(#avp6-aura)"/>
-  <g transform="translate(1010 107)"><rect x="-60" y="-62" width="120" height="124" rx="8" fill="#2B1263" fill-opacity=".5" stroke="#B197FC" stroke-opacity=".7"/>
-    <rect x="-46" y="-44" width="88" height="5" rx="2.5" fill="#E9DDFF" fill-opacity="0.6"/><rect x="-46" y="-30" width="70" height="5" rx="2.5" fill="#E9DDFF" fill-opacity="0.6"/><rect x="-46" y="-16" width="88" height="5" rx="2.5" fill="#E9DDFF" fill-opacity="0.6"/><rect x="-46" y="-2" width="56" height="5" rx="2.5" fill="#E9DDFF" fill-opacity="0.6"/><rect x="-46" y="12" width="80" height="5" rx="2.5" fill="#E9DDFF" fill-opacity="0.3"/><rect x="-46" y="26" width="40" height="5" rx="2.5" fill="#E9DDFF" fill-opacity="0.3"/>
-    <rect x="-6" y="24" width="3" height="14" fill="#E879F9"/>
-    <text x="96" y="-24" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#B197FC">sections</text>
-    <text x="96" y="0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#B197FC">marks</text>
-    <text x="96" y="24" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11" fill="#B197FC">questions</text>
-    <path d="M 60 -26 L 90 -28" stroke="#E879F9" stroke-opacity=".7" stroke-width="1.4" stroke-dasharray="4 4" fill="none"/><path d="M 60 -2 L 90 -4" stroke="#E879F9" stroke-opacity=".7" stroke-width="1.4" stroke-dasharray="4 4" fill="none"/><path d="M 60 22 L 90 20" stroke="#E879F9" stroke-opacity=".7" stroke-width="1.4" stroke-dasharray="4 4" fill="none"/></g>
-  <text x="32" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" fill="url(#avp6-num)" fill-opacity=".9">06</text>
-  <text x="130" y="42" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#B197FC">TEAM PROJECT · GENERATIVE AI</text>
-  <text x="130" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#F7F2FF">QP-Gen</text>
-  <text x="130" y="106" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#E9DDFF" fill-opacity=".88">AI-native, CBSE-compliant question-paper generator. Turns a textbook chapter into a paper with</text>
-  <text x="130" y="128" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#E9DDFF" fill-opacity=".88">the right marks, sections and question mix, streamed into an editor for export.</text>
-  <rect x="130" y="158" width="67" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
-    <text x="163.5" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Django</text><rect x="205" y="158" width="74" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
-    <text x="242" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Next.js</text><rect x="287" y="158" width="173" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
-    <text x="373.5" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">PostgreSQL + pgvector</text><rect x="468" y="158" width="67" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
-    <text x="501.5" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">OpenAI</text>
-  <rect x=".75" y=".75" width="1198.5" height="212.5" rx="15.25" fill="none" stroke="url(#avp6-edge)" stroke-width="1.5"/>
+  <g class="avp6-in" style="animation-delay:.1s">
+    <text class="avp6-serif" x="32" y="112" font-size="64" font-weight="700" fill="url(#avp6-num)" fill-opacity=".9">06</text>
+    <text class="avp6-mono" x="130" y="42" font-size="12" letter-spacing="3" fill="#A99BFF">TEAM PROJECT · GENERATIVE AI</text>
+    <text class="avp6-serif" x="130" y="80" font-size="32" fill="#F3F2FB">QP-Gen</text>
+  </g>
+  <g class="avp6-in" style="animation-delay:.35s"><text class="avp6-sans" x="130" y="106" font-size="15" fill="#9AA0C8">AI-native, CBSE-compliant question-paper generator. Turns a textbook chapter into a paper with</text><text class="avp6-sans" x="130" y="128" font-size="15" fill="#9AA0C8">the right marks, sections and question mix, streamed into an editor for export.</text></g>
+  <g class="avp6-chip" style="animation-delay:1.60s"><rect x="130" y="158" width="66" height="26" rx="13" fill="#14173A" stroke="#A99BFF" stroke-opacity=".35"/><text class="avp6-mono" x="163" y="175" text-anchor="middle" font-size="11.5" fill="#E4E2FF">Django</text></g><g class="avp6-chip" style="animation-delay:1.70s"><rect x="204" y="158" width="73" height="26" rx="13" fill="#14173A" stroke="#A99BFF" stroke-opacity=".35"/><text class="avp6-mono" x="240.5" y="175" text-anchor="middle" font-size="11.5" fill="#E4E2FF">Next.js</text></g><g class="avp6-chip" style="animation-delay:1.80s"><rect x="285" y="158" width="171" height="26" rx="13" fill="#14173A" stroke="#A99BFF" stroke-opacity=".35"/><text class="avp6-mono" x="370.5" y="175" text-anchor="middle" font-size="11.5" fill="#E4E2FF">PostgreSQL + pgvector</text></g><g class="avp6-chip" style="animation-delay:1.90s"><rect x="464" y="158" width="66" height="26" rx="13" fill="#14173A" stroke="#A99BFF" stroke-opacity=".35"/><text class="avp6-mono" x="497" y="175" text-anchor="middle" font-size="11.5" fill="#E4E2FF">OpenAI</text></g>
+  <g transform="translate(1010 107)"><g class="avp6-in" style="animation-delay:.5s"><rect x="-60" y="-62" width="120" height="124" rx="8" fill="#14173A" stroke="#A99BFF" stroke-opacity=".55"/>
+    <rect x="-46" y="-44" width="88" height="5" rx="2.5" fill="#E4E2FF" fill-opacity="0.55"/><rect x="-46" y="-30" width="70" height="5" rx="2.5" fill="#E4E2FF" fill-opacity="0.55"/><rect x="-46" y="-16" width="88" height="5" rx="2.5" fill="#E4E2FF" fill-opacity="0.55"/><rect x="-46" y="-2" width="56" height="5" rx="2.5" fill="#E4E2FF" fill-opacity="0.55"/><rect x="-46" y="12" width="80" height="5" rx="2.5" fill="#E4E2FF" fill-opacity="0.28"/><rect x="-46" y="26" width="40" height="5" rx="2.5" fill="#E4E2FF" fill-opacity="0.28"/>
+    <rect x="-6" y="24" width="3" height="14" fill="#C4B8FF"/>
+    <text x="96" y="-24" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#A99BFF">sections</text><text x="96" y="0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#A99BFF">marks</text><text x="96" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#A99BFF">questions</text>
+    <path d="M 60 -26 L 90 -28" stroke="#A99BFF" stroke-opacity=".6" stroke-width="1.3" stroke-dasharray="4 5" fill="none"/><path d="M 60 -2 L 90 -4" stroke="#A99BFF" stroke-opacity=".6" stroke-width="1.3" stroke-dasharray="4 5" fill="none"/><path d="M 60 22 L 90 20" stroke="#A99BFF" stroke-opacity=".6" stroke-width="1.3" stroke-dasharray="4 5" fill="none"/></g></g>
+  
+  <rect x=".5" y=".5" width="1199" height="213" rx="15.5" fill="none" stroke="#A99BFF" stroke-opacity=".22"/>
+  <rect class="avp6-trace" style="animation-delay:-7.800000000000001s" x=".5" y=".5" width="1199" height="213" rx="15.5" pathLength="1000" fill="none" stroke="url(#avp6-tracegrad)" stroke-width="1.5" stroke-linecap="round"/>
 </svg>

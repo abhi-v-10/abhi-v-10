@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 44" width="128" height="44" role="img" aria-labelledby="avb-github-t">
+  <title id="avb-github-t">GitHub</title>
+  <defs><linearGradient id="avb-github-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14173A"/><stop offset="1" stop-color="#11132B"/></linearGradient>
+    <linearGradient id="avb-github-ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C4B8FF"/><stop offset="1" stop-color="#4B45C6"/></linearGradient></defs>
+  
+<rect x=".5" y=".5" width="127" height="43" rx="22" fill="url(#avb-github-bg)" stroke="#A99BFF" stroke-opacity=".4"/>
+  <circle cx="24" cy="22" r="13" fill="#4B45C6" fill-opacity=".35" stroke="url(#avb-github-ring)" stroke-width="1.2"/>
+  <text x="24" y="26" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="700" fill="#F3F2FB">GH</text>
+  <text x="48" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing=".3" fill="#F3F2FB">GitHub</text>
+  <path d="M104 17 l6 5 l-6 5" stroke="#A99BFF" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

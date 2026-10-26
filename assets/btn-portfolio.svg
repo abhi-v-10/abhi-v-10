@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 153 44" width="153" height="44" role="img" aria-labelledby="avb-portfolio-t">
+  <title id="avb-portfolio-t">Portfolio</title>
+  <defs><linearGradient id="avb-portfolio-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14173A"/><stop offset="1" stop-color="#11132B"/></linearGradient>
+    <linearGradient id="avb-portfolio-ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C4B8FF"/><stop offset="1" stop-color="#4B45C6"/></linearGradient></defs>
+  
+<rect x=".5" y=".5" width="152" height="43" rx="22" fill="url(#avb-portfolio-bg)" stroke="#A99BFF" stroke-opacity=".4"/>
+  <circle cx="24" cy="22" r="13" fill="#4B45C6" fill-opacity=".35" stroke="url(#avb-portfolio-ring)" stroke-width="1.2"/>
+  <text x="24" y="26" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="700" fill="#F3F2FB">AV</text>
+  <text x="48" y="27" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing=".3" fill="#F3F2FB">Portfolio</text>
+  <path d="M129 17 l6 5 l-6 5" stroke="#A99BFF" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

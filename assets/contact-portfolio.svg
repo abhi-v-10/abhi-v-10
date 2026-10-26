@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 584 104" width="584" height="104" role="img" aria-labelledby="avx-portfolio-t">
+  <title id="avx-portfolio-t">PORTFOLIO: abhi-ai-portfolio.lovable.app. Selected work and about me</title>
+  <defs>
+    <linearGradient id="avx-portfolio-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#11132B"/><stop offset="1" stop-color="#090A1C"/></linearGradient>
+    <radialGradient id="avx-portfolio-glow" cx="90%" cy="50%" r="65%"><stop offset="0" stop-color="#4B45C6" stop-opacity=".5"/><stop offset="1" stop-color="#272A6B" stop-opacity="0"/></radialGradient>
+    <linearGradient id="avx-portfolio-tracegrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F3F2FB"/><stop offset=".5" stop-color="#A99BFF"/><stop offset="1" stop-color="#7C6CF0" stop-opacity="0"/></linearGradient>
+    <pattern id="avx-portfolio-grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#A99BFF" stroke-opacity=".06"/></pattern>
+    <filter id="avx-portfolio-blur" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4"/></filter>
+    <clipPath id="avx-portfolio-clip"><rect width="584" height="104" rx="16"/></clipPath></defs>
+  <style>
+    .avx-portfolio-serif { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif; }
+    .avx-portfolio-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+    .avx-portfolio-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .avx-portfolio-in { animation: avx-portfolio-in 1s cubic-bezier(.16,1,.3,1) both; }
+    .avx-portfolio-chip { animation: avx-portfolio-chip .7s cubic-bezier(.34,1.56,.64,1) both; }
+    .avx-portfolio-draw { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: avx-portfolio-draw 1.8s cubic-bezier(.65,0,.35,1) .5s forwards; }
+    .avx-portfolio-trace { stroke-dasharray: 150 850; animation: avx-portfolio-trace 9s linear infinite; }
+    @keyframes avx-portfolio-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+    @keyframes avx-portfolio-chip { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    @keyframes avx-portfolio-draw { to { stroke-dashoffset: 0; } }
+    @keyframes avx-portfolio-trace { from { stroke-dashoffset: 1000; } to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .avx-portfolio-in, .avx-portfolio-chip { animation: none; } .avx-portfolio-draw { animation: none; stroke-dashoffset: 0; } .avx-portfolio-trace { display: none; } }
+    
+  </style>
+
+  <g clip-path="url(#avx-portfolio-clip)">
+    <rect width="584" height="104" fill="url(#avx-portfolio-bg)"/>
+    <rect x="0" width="584" height="104" fill="url(#avx-portfolio-grid)"/>
+    <rect width="584" height="104" fill="url(#avx-portfolio-glow)"/>
+  </g>
+  <g class="avx-portfolio-in">
+    <circle cx="56" cy="52" r="26" fill="#4B45C6" fill-opacity=".3" stroke="#A99BFF" stroke-opacity=".6"/>
+    <text x="56" y="58" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" fill="#F3F2FB">AV</text>
+    <text class="avx-portfolio-mono" x="102" y="36" font-size="11" letter-spacing="3" fill="#A99BFF">PORTFOLIO</text>
+    <text class="avx-portfolio-serif" x="102" y="64" font-size="24" fill="#F3F2FB">abhi-ai-portfolio.lovable.app</text>
+    <text class="avx-portfolio-sans" x="102" y="85" font-size="13" fill="#9AA0C8">Selected work and about me</text>
+    <path d="M528 52 h22 M542 44 l8 8 l-8 8" stroke="#A99BFF" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(0 0)"/>
+  </g>
+  
+  <rect x=".5" y=".5" width="583" height="103" rx="15.5" fill="none" stroke="#A99BFF" stroke-opacity=".22"/>
+  <rect class="avx-portfolio-trace" style="animation-delay:-9s" x=".5" y=".5" width="583" height="103" rx="15.5" pathLength="1000" fill="none" stroke="url(#avx-portfolio-tracegrad)" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

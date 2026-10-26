@@ -18,17 +18,18 @@ const USER = "abhi-v-10";
 const OUT = resolve(dirname(fileURLToPath(import.meta.url)), "..", "assets");
 
 const C = {
-  bg0: "#08051A",
-  bg1: "#120A2B",
-  deep: "#2B1263",
-  royal: "#5B2BD6",
-  electric: "#8B5CF6",
-  bright: "#B197FC",
-  glow: "#E879F9",
-  ice: "#E9DDFF",
-  white: "#F7F2FF",
+  bg0: "#090A1C",
+  bg1: "#11132B",
+  deep: "#272A6B",
+  royal: "#4B45C6",
+  electric: "#7C6CF0",
+  bright: "#A99BFF",
+  glow: "#C4B8FF",
+  ice: "#E4E2FF",
+  white: "#F3F2FB",
+  muted: "#9AA0C8",
 };
-const LEVELS = ["#1B1238", C.deep, C.royal, C.electric, C.glow];
+const LEVELS = ["#1A1D3F", "#2B2F78", C.royal, C.electric, "#B8ADFF"];
 const SANS = "'Segoe UI', 'Helvetica Neue', Arial, sans-serif";
 const MONO = "'SFMono-Regular', Consolas, 'Liberation Mono', monospace";
 
@@ -107,6 +108,12 @@ function heatmapSvg({ days, total }, updated, snake = false) {
   const CYCLE = travel + BODY * lag + 3;  // 3s pause before it loops
   const f = (s) => +(s / CYCLE).toFixed(5);
 
+  const active = days.filter((d) => d.count > 0).length;
+  let streak = 0, run = 0;
+  for (const d of days) { run = d.count > 0 ? run + 1 : 0; streak = Math.max(streak, run); }
+  const busiest = days.reduce((m, d) => (d.count > m.count ? d : m), days[0]);
+  const busyLabel = new Date(busiest.date + "T00:00:00Z").toLocaleString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
+
   let cells = "";
   let glowCells = "";
   let lastMonth = -1;
@@ -114,7 +121,7 @@ function heatmapSvg({ days, total }, updated, snake = false) {
   for (const g of grid) {
     const label = `${g.count} contribution${g.count === 1 ? "" : "s"} on ${g.date}`;
     const eat = snake && g.level > 0 ? `<animate attributeName="fill" calcMode="discrete" values="${LEVELS[g.level]};${LEVELS[0]}" keyTimes="0;${f(dist.get(g.date) / SPEED)}" dur="${CYCLE.toFixed(2)}s" repeatCount="indefinite"/>` : "";
-    cells += `<rect x="${g.x}" y="${g.y}" width="${cell}" height="${cell}" rx="3" fill="${LEVELS[g.level]}"><title>${esc(label)}</title>${eat}</rect>`;
+    cells += `<rect class="avc-c" style="animation-delay:${(g.col * 0.02).toFixed(2)}s" x="${g.x}" y="${g.y}" width="${cell}" height="${cell}" rx="3" fill="${LEVELS[g.level]}"><title>${esc(label)}</title>${eat}</rect>`;
     if (g.level >= 3) {
       const fade = snake ? `<animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;${f(dist.get(g.date) / SPEED)}" dur="${CYCLE.toFixed(2)}s" repeatCount="indefinite"/>` : "";
       glowCells += `<rect x="${g.x}" y="${g.y}" width="${cell}" height="${cell}" rx="3" fill="${LEVELS[g.level]}">${fade}</rect>`;
@@ -169,18 +176,23 @@ function heatmapSvg({ days, total }, updated, snake = false) {
     <linearGradient id="avc-body" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="${C.bright}"/><stop offset="1" stop-color="${C.electric}"/>
     </linearGradient>
+    <style>
+      .avc-c { transform-box: fill-box; transform-origin: center; animation: avc-in .7s cubic-bezier(.34,1.56,.64,1) both; }
+      @keyframes avc-in { from { opacity: 0; transform: scale(.4); } to { opacity: 1; transform: none; } }
+      @media (prefers-reduced-motion: reduce) { .avc-c { animation: none; } }
+    </style>
     <filter id="avc-glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3.5"/></filter>
   </defs>
   <rect width="${W}" height="${H}" rx="14" fill="url(#avc-bg)" stroke="${C.electric}" stroke-opacity=".6"/>
   <text x="${padL}" y="36" font-family="${SANS}" font-size="15" font-weight="600" fill="${C.white}">${total} contributions in the last year</text>
-  <text x="${W - 22}" y="36" text-anchor="end" font-family="${MONO}" font-size="11" fill="${C.bright}">live data · github.com/${USER}</text>
+  <text x="${W - 22}" y="36" text-anchor="end" font-family="${MONO}" font-size="11" fill="${C.bright}">live data · updated ${updated}</text>
   <rect x="${padL}" y="46" width="${W - padL - 22}" height="1.5" fill="url(#avc-line)"/>
   <g font-family="${SANS}" font-size="10" fill="${C.bright}">${months}${dayLabels}</g>
   <g filter="url(#avc-glow)" opacity=".85">${glowCells}</g>
   ${cells}
   ${snakeSvg}
   <g font-family="${SANS}" font-size="10" fill="${C.bright}">
-    <text x="${padL}" y="${H - 24}">Updated ${updated} (UTC)</text>
+    <text x="${padL}" y="${H - 24}" font-family="${MONO}">${active} active days · longest streak ${streak} day${streak === 1 ? "" : "s"} · busiest day ${busiest.count} on ${busyLabel}</text>
     <text x="${legendX + 28}" y="${H - 24}" text-anchor="end">Less</text>
     <text x="${legendX + 34 + 5 * pitch + 3}" y="${H - 24}">More</text>
   </g>
