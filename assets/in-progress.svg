@@ -2,19 +2,19 @@
   <title id="avi-t">In progress: AV, The Forge — a 3D portfolio built with React, React Three Fiber, Three.js and a core modelled in Blender. The repository is private for now.</title>
   <defs>
     <linearGradient id="avi-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#030A1C"/><stop offset=".6" stop-color="#071634"/><stop offset="1" stop-color="#0A1F4D"/>
+      <stop offset="0" stop-color="#08051A"/><stop offset=".6" stop-color="#120A2B"/><stop offset="1" stop-color="#22104F"/>
     </linearGradient>
     <linearGradient id="avi-edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1E6BFF" stop-opacity=".85"/><stop offset=".5" stop-color="#0B2A66" stop-opacity=".6"/><stop offset="1" stop-color="#5CD6FF" stop-opacity=".7"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".85"/><stop offset=".5" stop-color="#2B1263" stop-opacity=".6"/><stop offset="1" stop-color="#E879F9" stop-opacity=".7"/>
     </linearGradient>
     <linearGradient id="avi-line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1E6BFF" stop-opacity="0"/><stop offset=".5" stop-color="#3D9BFF"/><stop offset="1" stop-color="#5CD6FF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/><stop offset=".5" stop-color="#B197FC"/><stop offset="1" stop-color="#E879F9" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="avi-aura" cx=".5" cy=".5" r=".5">
-      <stop offset="0" stop-color="#1E6BFF" stop-opacity=".35"/><stop offset="1" stop-color="#1E6BFF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".35"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
     <pattern id="avi-grid" width="26" height="26" patternUnits="userSpaceOnUse">
-      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#3D9BFF" stroke-opacity=".07" stroke-width=".6"/>
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#B197FC" stroke-opacity=".07" stroke-width=".6"/>
     </pattern>
     <filter id="avi-glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4"/></filter>
     <clipPath id="avi-clip"><rect width="1200" height="96" rx="16"/></clipPath></defs>
@@ -22,10 +22,10 @@
     <rect width="1200" height="96" fill="url(#avi-bg)"/>
     <rect width="1200" height="96" fill="url(#avi-grid)"/>
   </g>
-  <rect x="28" y="30" width="132" height="30" rx="15" fill="#1E6BFF" fill-opacity=".2" stroke="#5CD6FF"/>
-  <circle cx="48" cy="45" r="4" fill="#5CD6FF"/>
-  <text x="62" y="49.5" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="2" fill="#EEF6FF">IN PROGRESS</text>
-  <text x="184" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#EEF6FF">AV — The Forge · a 3D portfolio</text>
-  <text x="184" y="66" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#BFE0FF" fill-opacity=".85">React · React Three Fiber · Three.js · a core modelled in Blender. Repository is private for now.</text>
+  <rect x="28" y="30" width="132" height="30" rx="15" fill="#8B5CF6" fill-opacity=".2" stroke="#E879F9"/>
+  <circle cx="48" cy="45" r="4" fill="#E879F9"/>
+  <text x="62" y="49.5" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="2" fill="#F7F2FF">IN PROGRESS</text>
+  <text x="184" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#F7F2FF">AV — The Forge · a 3D portfolio</text>
+  <text x="184" y="66" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#E9DDFF" fill-opacity=".85">React · React Three Fiber · Three.js · a core modelled in Blender. Repository is private for now.</text>
   <rect x=".75" y=".75" width="1198.5" height="94.5" rx="15.25" fill="none" stroke="url(#avi-edge)" stroke-width="1.5"/>
 </svg>

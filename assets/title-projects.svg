@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92" role="img" aria-label="03 Selected work — Things I've built.">
   <defs>
     <linearGradient id="avt-line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#5CD6FF"/><stop offset=".25" stop-color="#1E6BFF"/><stop offset="1" stop-color="#1E6BFF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#E879F9"/><stop offset=".25" stop-color="#8B5CF6"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="avt-text" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#EEF6FF"/><stop offset="1" stop-color="#BFE0FF"/>
+      <stop offset="0" stop-color="#F7F2FF"/><stop offset="1" stop-color="#E9DDFF"/>
     </linearGradient>
     <filter id="avt-glow" x="-5%" y="-400%" width="110%" height="900%"><feGaussianBlur stdDeviation="4"/></filter>
   </defs>
-  <text x="6" y="26" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" letter-spacing="4" fill="#3D9BFF">03 — SELECTED WORK</text>
+  <text x="6" y="26" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="13" letter-spacing="4" fill="#B197FC">03 — SELECTED WORK</text>
   <text x="4" y="64" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="url(#avt-text)">Things I've built.</text>
   <rect x="4" y="78" width="1192" height="3" rx="1.5" fill="url(#avt-line)" opacity=".9" filter="url(#avt-glow)"/>
   <rect x="4" y="78" width="1192" height="2" rx="1" fill="url(#avt-line)"/>

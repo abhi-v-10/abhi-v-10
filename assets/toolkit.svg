@@ -2,19 +2,19 @@
   <title id="avk-t">Toolkit. languages: Python, JavaScript, TypeScript, C++, C. backend: Django, Django REST Framework, FastAPI, Flask, FastMCP, Node.js, Express.js, REST APIs, JWT, Celery. ai: OpenAI API, Google Gemini, Claude, Pydantic, Retrieval, Prompt Engineering. frontend: React, Vite, Tailwind CSS, HTML, CSS. data: PostgreSQL, MongoDB, SQLite, Redis. tools &amp; 3d: Git, GitHub Actions, Linux, Three.js, WebGL, Blender.</title>
   <defs>
     <linearGradient id="avk-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#030A1C"/><stop offset=".6" stop-color="#071634"/><stop offset="1" stop-color="#0A1F4D"/>
+      <stop offset="0" stop-color="#08051A"/><stop offset=".6" stop-color="#120A2B"/><stop offset="1" stop-color="#22104F"/>
     </linearGradient>
     <linearGradient id="avk-edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1E6BFF" stop-opacity=".85"/><stop offset=".5" stop-color="#0B2A66" stop-opacity=".6"/><stop offset="1" stop-color="#5CD6FF" stop-opacity=".7"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".85"/><stop offset=".5" stop-color="#2B1263" stop-opacity=".6"/><stop offset="1" stop-color="#E879F9" stop-opacity=".7"/>
     </linearGradient>
     <linearGradient id="avk-line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1E6BFF" stop-opacity="0"/><stop offset=".5" stop-color="#3D9BFF"/><stop offset="1" stop-color="#5CD6FF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/><stop offset=".5" stop-color="#B197FC"/><stop offset="1" stop-color="#E879F9" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="avk-aura" cx=".5" cy=".5" r=".5">
-      <stop offset="0" stop-color="#1E6BFF" stop-opacity=".35"/><stop offset="1" stop-color="#1E6BFF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".35"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
     <pattern id="avk-grid" width="26" height="26" patternUnits="userSpaceOnUse">
-      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#3D9BFF" stroke-opacity=".07" stroke-width=".6"/>
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#B197FC" stroke-opacity=".07" stroke-width=".6"/>
     </pattern>
     <filter id="avk-glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4"/></filter>
     <clipPath id="avk-clip"><rect width="1200" height="368" rx="16"/></clipPath></defs>
@@ -22,75 +22,75 @@
     <rect width="1200" height="368" fill="url(#avk-bg)"/>
     <rect width="1200" height="368" fill="url(#avk-grid)"/>
   </g><g transform="translate(24 24)">
-      <rect width="368" height="166" rx="12" fill="#1E6BFF" fill-opacity=".07" stroke="#3D9BFF" stroke-opacity=".3"/>
-      <circle cx="26" cy="30" r="4.5" fill="#5CD6FF"/><circle cx="26" cy="30" r="10" fill="#5CD6FF" fill-opacity=".5" filter="url(#avk-glow)"/>
-      <text x="42" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#3D9BFF">LANGUAGES</text>
-      <rect x="20" y="56" width="67" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="53.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Python</text><rect x="95" y="56" width="95" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="142.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">JavaScript</text><rect x="198" y="56" width="95" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="245.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">TypeScript</text><rect x="301" y="56" width="45" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="323.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">C++</text><rect x="20" y="88" width="31" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="35.5" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">C</text>
+      <rect width="368" height="166" rx="12" fill="#8B5CF6" fill-opacity=".07" stroke="#B197FC" stroke-opacity=".3"/>
+      <circle cx="26" cy="30" r="4.5" fill="#E879F9"/><circle cx="26" cy="30" r="10" fill="#E879F9" fill-opacity=".5" filter="url(#avk-glow)"/>
+      <text x="42" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#B197FC">LANGUAGES</text>
+      <rect x="20" y="56" width="67" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="53.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Python</text><rect x="95" y="56" width="95" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="142.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">JavaScript</text><rect x="198" y="56" width="95" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="245.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">TypeScript</text><rect x="301" y="56" width="45" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="323.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">C++</text><rect x="20" y="88" width="31" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="35.5" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">C</text>
     </g>
 <g transform="translate(412 24)">
-      <rect width="368" height="166" rx="12" fill="#1E6BFF" fill-opacity=".07" stroke="#3D9BFF" stroke-opacity=".3"/>
-      <circle cx="26" cy="30" r="4.5" fill="#5CD6FF"/><circle cx="26" cy="30" r="10" fill="#5CD6FF" fill-opacity=".5" filter="url(#avk-glow)"/>
-      <text x="42" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#3D9BFF">BACKEND</text>
-      <rect x="20" y="56" width="67" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="53.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Django</text><rect x="95" y="56" width="173" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="181.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Django REST Framework</text><rect x="20" y="88" width="74" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="57" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">FastAPI</text><rect x="102" y="88" width="60" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="132" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Flask</text><rect x="170" y="88" width="74" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="207" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">FastMCP</text><rect x="252" y="88" width="74" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="289" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Node.js</text><rect x="20" y="120" width="95" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="67.5" y="136" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Express.js</text><rect x="123" y="120" width="88" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="167" y="136" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">REST APIs</text><rect x="219" y="120" width="45" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="241.5" y="136" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">JWT</text><rect x="272" y="120" width="67" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="305.5" y="136" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Celery</text>
+      <rect width="368" height="166" rx="12" fill="#8B5CF6" fill-opacity=".07" stroke="#B197FC" stroke-opacity=".3"/>
+      <circle cx="26" cy="30" r="4.5" fill="#E879F9"/><circle cx="26" cy="30" r="10" fill="#E879F9" fill-opacity=".5" filter="url(#avk-glow)"/>
+      <text x="42" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#B197FC">BACKEND</text>
+      <rect x="20" y="56" width="67" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="53.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Django</text><rect x="95" y="56" width="173" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="181.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Django REST Framework</text><rect x="20" y="88" width="74" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="57" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">FastAPI</text><rect x="102" y="88" width="60" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="132" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Flask</text><rect x="170" y="88" width="74" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="207" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">FastMCP</text><rect x="252" y="88" width="74" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="289" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Node.js</text><rect x="20" y="120" width="95" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="67.5" y="136" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Express.js</text><rect x="123" y="120" width="88" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="167" y="136" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">REST APIs</text><rect x="219" y="120" width="45" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="241.5" y="136" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">JWT</text><rect x="272" y="120" width="67" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="305.5" y="136" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Celery</text>
     </g>
 <g transform="translate(800 24)">
-      <rect width="368" height="166" rx="12" fill="#1E6BFF" fill-opacity=".07" stroke="#3D9BFF" stroke-opacity=".3"/>
-      <circle cx="26" cy="30" r="4.5" fill="#5CD6FF"/><circle cx="26" cy="30" r="10" fill="#5CD6FF" fill-opacity=".5" filter="url(#avk-glow)"/>
-      <text x="42" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#3D9BFF">AI</text>
-      <rect x="20" y="56" width="95" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="67.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">OpenAI API</text><rect x="123" y="56" width="116" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="181" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Google Gemini</text><rect x="247" y="56" width="67" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="280.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Claude</text><rect x="20" y="88" width="81" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="60.5" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Pydantic</text><rect x="109" y="88" width="88" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="153" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Retrieval</text><rect x="20" y="120" width="152" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="96" y="136" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Prompt Engineering</text>
+      <rect width="368" height="166" rx="12" fill="#8B5CF6" fill-opacity=".07" stroke="#B197FC" stroke-opacity=".3"/>
+      <circle cx="26" cy="30" r="4.5" fill="#E879F9"/><circle cx="26" cy="30" r="10" fill="#E879F9" fill-opacity=".5" filter="url(#avk-glow)"/>
+      <text x="42" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#B197FC">AI</text>
+      <rect x="20" y="56" width="95" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="67.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">OpenAI API</text><rect x="123" y="56" width="116" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="181" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Google Gemini</text><rect x="247" y="56" width="67" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="280.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Claude</text><rect x="20" y="88" width="81" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="60.5" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Pydantic</text><rect x="109" y="88" width="88" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="153" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Retrieval</text><rect x="20" y="120" width="152" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="96" y="136" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Prompt Engineering</text>
     </g>
 <g transform="translate(24 210)">
-      <rect width="368" height="134" rx="12" fill="#1E6BFF" fill-opacity=".07" stroke="#3D9BFF" stroke-opacity=".3"/>
-      <circle cx="26" cy="30" r="4.5" fill="#5CD6FF"/><circle cx="26" cy="30" r="10" fill="#5CD6FF" fill-opacity=".5" filter="url(#avk-glow)"/>
-      <text x="42" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#3D9BFF">FRONTEND</text>
-      <rect x="20" y="56" width="60" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="50" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">React</text><rect x="88" y="56" width="52" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="114" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Vite</text><rect x="148" y="56" width="109" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="202.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Tailwind CSS</text><rect x="265" y="56" width="52" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="291" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">HTML</text><rect x="20" y="88" width="45" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="42.5" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">CSS</text>
+      <rect width="368" height="134" rx="12" fill="#8B5CF6" fill-opacity=".07" stroke="#B197FC" stroke-opacity=".3"/>
+      <circle cx="26" cy="30" r="4.5" fill="#E879F9"/><circle cx="26" cy="30" r="10" fill="#E879F9" fill-opacity=".5" filter="url(#avk-glow)"/>
+      <text x="42" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#B197FC">FRONTEND</text>
+      <rect x="20" y="56" width="60" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="50" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">React</text><rect x="88" y="56" width="52" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="114" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Vite</text><rect x="148" y="56" width="109" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="202.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Tailwind CSS</text><rect x="265" y="56" width="52" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="291" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">HTML</text><rect x="20" y="88" width="45" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="42.5" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">CSS</text>
     </g>
 <g transform="translate(412 210)">
-      <rect width="368" height="134" rx="12" fill="#1E6BFF" fill-opacity=".07" stroke="#3D9BFF" stroke-opacity=".3"/>
-      <circle cx="26" cy="30" r="4.5" fill="#5CD6FF"/><circle cx="26" cy="30" r="10" fill="#5CD6FF" fill-opacity=".5" filter="url(#avk-glow)"/>
-      <text x="42" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#3D9BFF">DATA</text>
-      <rect x="20" y="56" width="95" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="67.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">PostgreSQL</text><rect x="123" y="56" width="74" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="160" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">MongoDB</text><rect x="205" y="56" width="67" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="238.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">SQLite</text><rect x="280" y="56" width="60" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="310" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Redis</text>
+      <rect width="368" height="134" rx="12" fill="#8B5CF6" fill-opacity=".07" stroke="#B197FC" stroke-opacity=".3"/>
+      <circle cx="26" cy="30" r="4.5" fill="#E879F9"/><circle cx="26" cy="30" r="10" fill="#E879F9" fill-opacity=".5" filter="url(#avk-glow)"/>
+      <text x="42" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#B197FC">DATA</text>
+      <rect x="20" y="56" width="95" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="67.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">PostgreSQL</text><rect x="123" y="56" width="74" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="160" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">MongoDB</text><rect x="205" y="56" width="67" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="238.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">SQLite</text><rect x="280" y="56" width="60" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="310" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Redis</text>
     </g>
 <g transform="translate(800 210)">
-      <rect width="368" height="134" rx="12" fill="#1E6BFF" fill-opacity=".07" stroke="#3D9BFF" stroke-opacity=".3"/>
-      <circle cx="26" cy="30" r="4.5" fill="#5CD6FF"/><circle cx="26" cy="30" r="10" fill="#5CD6FF" fill-opacity=".5" filter="url(#avk-glow)"/>
-      <text x="42" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#3D9BFF">TOOLS &amp; 3D</text>
-      <rect x="20" y="56" width="45" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="42.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Git</text><rect x="73" y="56" width="123" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="134.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">GitHub Actions</text><rect x="204" y="56" width="60" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="234" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Linux</text><rect x="20" y="88" width="81" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="60.5" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Three.js</text><rect x="109" y="88" width="60" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="139" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">WebGL</text><rect x="177" y="88" width="74" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="214" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Blender</text>
+      <rect width="368" height="134" rx="12" fill="#8B5CF6" fill-opacity=".07" stroke="#B197FC" stroke-opacity=".3"/>
+      <circle cx="26" cy="30" r="4.5" fill="#E879F9"/><circle cx="26" cy="30" r="10" fill="#E879F9" fill-opacity=".5" filter="url(#avk-glow)"/>
+      <text x="42" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#B197FC">TOOLS &amp; 3D</text>
+      <rect x="20" y="56" width="45" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="42.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Git</text><rect x="73" y="56" width="123" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="134.5" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">GitHub Actions</text><rect x="204" y="56" width="60" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="234" y="72" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Linux</text><rect x="20" y="88" width="81" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="60.5" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Three.js</text><rect x="109" y="88" width="60" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="139" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">WebGL</text><rect x="177" y="88" width="74" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="214" y="104" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Blender</text>
     </g><rect x=".75" y=".75" width="1198.5" height="366.5" rx="15.25" fill="none" stroke="url(#avk-edge)" stroke-width="1.5"/>
 </svg>

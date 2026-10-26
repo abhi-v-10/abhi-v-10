@@ -1,4 +1,4 @@
-// Generates assets/contributions.svg and assets/stats.svg from real, public GitHub data.
+// Generates assets/contributions.svg, assets/contributions-snake.svg and assets/stats.svg from real, public GitHub data.
 //
 //   node scripts/generate-profile-assets.mjs
 //
@@ -18,17 +18,17 @@ const USER = "abhi-v-10";
 const OUT = resolve(dirname(fileURLToPath(import.meta.url)), "..", "assets");
 
 const C = {
-  bg0: "#030A1C",
-  bg1: "#071634",
-  navy: "#0B2A66",
-  royal: "#1448C8",
-  electric: "#1E6BFF",
-  bright: "#3D9BFF",
-  cyan: "#5CD6FF",
-  ice: "#BFE0FF",
-  white: "#EEF6FF",
+  bg0: "#08051A",
+  bg1: "#120A2B",
+  deep: "#2B1263",
+  royal: "#5B2BD6",
+  electric: "#8B5CF6",
+  bright: "#B197FC",
+  glow: "#E879F9",
+  ice: "#E9DDFF",
+  white: "#F7F2FF",
 };
-const LEVELS = ["#0E1D3D", C.navy, C.royal, C.bright, C.cyan];
+const LEVELS = ["#1B1238", C.deep, C.royal, C.electric, C.glow];
 const SANS = "'Segoe UI', 'Helvetica Neue', Arial, sans-serif";
 const MONO = "'SFMono-Regular', Consolas, 'Liberation Mono', monospace";
 
@@ -65,7 +65,7 @@ function parseCalendar(html) {
   return { days, total: Number(total[1].replace(/,/g, "")) };
 }
 
-function heatmapSvg({ days, total }, updated) {
+function heatmapSvg({ days, total }, updated, snake = false) {
   const cell = 12, gap = 3, pitch = cell + gap;
   const padL = 46, padT = 74;
   const first = new Date(days[0].date + "T00:00:00Z");
@@ -75,22 +75,53 @@ function heatmapSvg({ days, total }, updated) {
   const W = padL + weeks * pitch + 22;
   const H = padT + 7 * pitch + 58;
 
+  // Place every day on the grid.
+  const grid = days.map((d) => {
+    const dt = new Date(d.date + "T00:00:00Z");
+    const col = Math.floor((dt - startSunday) / 864e5 / 7);
+    const row = dt.getUTCDay();
+    return { ...d, dt, col, row, x: padL + col * pitch, y: padT + row * pitch };
+  });
+
+  // Snake route: column by column, down then up, through every existing cell.
+  const route = [];
+  for (let c = 0; c < weeks; c++) {
+    const col = grid.filter((g) => g.col === c).sort((a, b) => a.row - b.row);
+    if (c % 2) col.reverse();
+    route.push(...col);
+  }
+  const centre = (g) => [g.x + cell / 2, g.y + cell / 2];
+  const dist = new Map();
+  let len = 0;
+  route.forEach((g, i) => {
+    if (i) {
+      const [x1, y1] = centre(route[i - 1]), [x2, y2] = centre(g);
+      len += Math.hypot(x2 - x1, y2 - y1);
+    }
+    dist.set(g.date, len);
+  });
+  const SPEED = 230;                      // px per second
+  const BODY = 9;                         // snake segments
+  const lag = (pitch * 0.9) / SPEED;      // seconds between segments
+  const travel = len / SPEED;
+  const CYCLE = travel + BODY * lag + 3;  // 3s pause before it loops
+  const f = (s) => +(s / CYCLE).toFixed(5);
+
   let cells = "";
   let glowCells = "";
   let lastMonth = -1;
   const monthLabels = [];
-  for (const d of days) {
-    const dt = new Date(d.date + "T00:00:00Z");
-    const col = Math.floor((dt - startSunday) / 864e5 / 7);
-    const row = dt.getUTCDay();
-    const x = padL + col * pitch, y = padT + row * pitch;
-    const label = `${d.count} contribution${d.count === 1 ? "" : "s"} on ${d.date}`;
-    cells += `<rect x="${x}" y="${y}" width="${cell}" height="${cell}" rx="3" fill="${LEVELS[d.level]}"><title>${esc(label)}</title></rect>`;
-    if (d.level >= 3) glowCells += `<rect x="${x}" y="${y}" width="${cell}" height="${cell}" rx="3" fill="${LEVELS[d.level]}"/>`;
-    if (row === 0 && dt.getUTCMonth() !== lastMonth) {
-      lastMonth = dt.getUTCMonth();
-      const name = dt.toLocaleString("en-US", { month: "short", timeZone: "UTC" });
-      monthLabels.push({ x, col, name });
+  for (const g of grid) {
+    const label = `${g.count} contribution${g.count === 1 ? "" : "s"} on ${g.date}`;
+    const eat = snake && g.level > 0 ? `<animate attributeName="fill" calcMode="discrete" values="${LEVELS[g.level]};${LEVELS[0]}" keyTimes="0;${f(dist.get(g.date) / SPEED)}" dur="${CYCLE.toFixed(2)}s" repeatCount="indefinite"/>` : "";
+    cells += `<rect x="${g.x}" y="${g.y}" width="${cell}" height="${cell}" rx="3" fill="${LEVELS[g.level]}"><title>${esc(label)}</title>${eat}</rect>`;
+    if (g.level >= 3) {
+      const fade = snake ? `<animate attributeName="opacity" calcMode="discrete" values="1;0" keyTimes="0;${f(dist.get(g.date) / SPEED)}" dur="${CYCLE.toFixed(2)}s" repeatCount="indefinite"/>` : "";
+      glowCells += `<rect x="${g.x}" y="${g.y}" width="${cell}" height="${cell}" rx="3" fill="${LEVELS[g.level]}">${fade}</rect>`;
+    }
+    if (g.row === 0 && g.dt.getUTCMonth() !== lastMonth) {
+      lastMonth = g.dt.getUTCMonth();
+      monthLabels.push({ x: g.x, col: g.col, name: g.dt.toLocaleString("en-US", { month: "short", timeZone: "UTC" }) });
     }
   }
   // Drop a label that would collide with the next one (a partial first month).
@@ -102,17 +133,43 @@ function heatmapSvg({ days, total }, updated) {
   const legendX = W - 22 - 5 * pitch - 70;
   const legend = LEVELS.map((c, i) => `<rect x="${legendX + 34 + i * pitch}" y="${H - 34}" width="${cell}" height="${cell}" rx="3" fill="${c}"/>`).join("");
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="avc-t avc-d">
-  <title id="avc-t">GitHub contribution heatmap for ${USER}</title>
+  let snakeSvg = "";
+  if (snake) {
+    const d = route.map((g, i) => `${i ? "L" : "M"}${centre(g).map((n) => n.toFixed(1)).join(" ")}`).join(" ");
+    const segs = [];
+    for (let i = BODY - 1; i >= 0; i--) {
+      const t0 = i * lag, t1 = t0 + travel;
+      const head = i === 0;
+      const size = head ? cell + 2 : cell - Math.min(i, 4) * 0.6;
+      const op = head ? 1 : Math.max(0.3, 0.95 - i * 0.08);
+      segs.push(`<g opacity="${op}">
+      ${head ? `<rect x="${-size / 2 - 3}" y="${-size / 2 - 3}" width="${size + 6}" height="${size + 6}" rx="7" fill="${C.glow}" filter="url(#avc-glow)" opacity=".9"/>` : ""}
+      <rect x="${-size / 2}" y="${-size / 2}" width="${size}" height="${size}" rx="${head ? 4.5 : 3.5}" fill="${head ? "url(#avc-head)" : "url(#avc-body)"}"${head ? ` stroke="${C.white}" stroke-width="1"` : ""}/>
+      ${head ? `<circle cx="2.5" cy="-2" r="1.2" fill="${C.bg0}"/><circle cx="2.5" cy="2.4" r="1.2" fill="${C.bg0}"/>` : ""}
+      <animateMotion dur="${CYCLE.toFixed(2)}s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;${f(t0)};${f(t1)};1"><mpath href="#avc-route" xlink:href="#avc-route"/></animateMotion>
+      <animate attributeName="opacity" values="1;1;0" keyTimes="0;${f(travel + BODY * lag + 1)};${f(travel + BODY * lag + 1.8)}" dur="${CYCLE.toFixed(2)}s" repeatCount="indefinite"/>
+    </g>`);
+    }
+    snakeSvg = `<path id="avc-route" d="${d}" fill="none" stroke="none"/>\n  ${segs.join("\n  ")}`;
+  }
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="avc-t avc-d">
+  <title id="avc-t">GitHub contribution heatmap for ${USER}${snake ? ", with an animated snake" : ""}</title>
   <desc id="avc-d">${total} contributions in the last year, generated from public GitHub data on ${updated}.</desc>
   <defs>
     <linearGradient id="avc-bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="${C.bg1}"/><stop offset="1" stop-color="${C.bg0}"/>
     </linearGradient>
     <linearGradient id="avc-line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="${C.royal}" stop-opacity="0"/><stop offset=".5" stop-color="${C.bright}"/><stop offset="1" stop-color="${C.royal}" stop-opacity="0"/>
+      <stop offset="0" stop-color="${C.royal}" stop-opacity="0"/><stop offset=".5" stop-color="${C.bright}"/><stop offset="1" stop-color="${C.glow}" stop-opacity="0"/>
     </linearGradient>
-    <filter id="avc-glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3.5"/></filter>
+    <linearGradient id="avc-head" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="${C.white}"/><stop offset="1" stop-color="${C.glow}"/>
+    </linearGradient>
+    <linearGradient id="avc-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="${C.bright}"/><stop offset="1" stop-color="${C.electric}"/>
+    </linearGradient>
+    <filter id="avc-glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3.5"/></filter>
   </defs>
   <rect width="${W}" height="${H}" rx="14" fill="url(#avc-bg)" stroke="${C.electric}" stroke-opacity=".6"/>
   <text x="${padL}" y="36" font-family="${SANS}" font-size="15" font-weight="600" fill="${C.white}">${total} contributions in the last year</text>
@@ -121,6 +178,7 @@ function heatmapSvg({ days, total }, updated) {
   <g font-family="${SANS}" font-size="10" fill="${C.bright}">${months}${dayLabels}</g>
   <g filter="url(#avc-glow)" opacity=".85">${glowCells}</g>
   ${cells}
+  ${snakeSvg}
   <g font-family="${SANS}" font-size="10" fill="${C.bright}">
     <text x="${padL}" y="${H - 24}">Updated ${updated} (UTC)</text>
     <text x="${legendX + 28}" y="${H - 24}" text-anchor="end">Less</text>
@@ -157,7 +215,7 @@ function statsSvg({ profile, repos, total }, updated) {
       const y = 190 + i * rowH;
       const w = Math.max(6, Math.round((n / max) * barW));
       return `<text x="40" y="${y + 11}" font-family="${SANS}" font-size="12" fill="${C.ice}">${esc(name)}</text>
-    <rect x="${barX}" y="${y}" width="${barW}" height="12" rx="6" fill="${C.navy}" fill-opacity=".55"/>
+    <rect x="${barX}" y="${y}" width="${barW}" height="12" rx="6" fill="${C.deep}" fill-opacity=".55"/>
     <rect x="${barX}" y="${y}" width="${w}" height="12" rx="6" fill="url(#avs-bar)"/>
     <text x="${barX + barW + 14}" y="${y + 11}" font-family="${MONO}" font-size="11" fill="${C.bright}">${n} repo${n === 1 ? "" : "s"}</text>`;
     })
@@ -200,5 +258,6 @@ const updated = new Date().toISOString().slice(0, 10);
 
 await mkdir(OUT, { recursive: true });
 await writeFile(resolve(OUT, "contributions.svg"), heatmapSvg(calendar, updated));
+await writeFile(resolve(OUT, "contributions-snake.svg"), heatmapSvg(calendar, updated, true));
 await writeFile(resolve(OUT, "stats.svg"), statsSvg({ profile, repos, total: calendar.total }, updated));
-console.log(`contributions.svg + stats.svg written (${calendar.days.length} days, ${calendar.total} contributions)`);
+console.log(`contributions.svg, contributions-snake.svg and stats.svg written (${calendar.days.length} days, ${calendar.total} contributions)`);

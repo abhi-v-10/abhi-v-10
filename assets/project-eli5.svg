@@ -2,44 +2,44 @@
   <title id="avp4-t">ELI5 — Simplifies complex text on any page. Select text or snip the screen, pick a persona and format, then simplify or expand further. A FastAPI backend keeps API keys off the client. Built with JavaScript, Manifest V3, FastAPI, Tesseract.js.</title>
   <defs>
     <linearGradient id="avp4-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#030A1C"/><stop offset=".6" stop-color="#071634"/><stop offset="1" stop-color="#0A1F4D"/>
+      <stop offset="0" stop-color="#08051A"/><stop offset=".6" stop-color="#120A2B"/><stop offset="1" stop-color="#22104F"/>
     </linearGradient>
     <linearGradient id="avp4-edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1E6BFF" stop-opacity=".85"/><stop offset=".5" stop-color="#0B2A66" stop-opacity=".6"/><stop offset="1" stop-color="#5CD6FF" stop-opacity=".7"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".85"/><stop offset=".5" stop-color="#2B1263" stop-opacity=".6"/><stop offset="1" stop-color="#E879F9" stop-opacity=".7"/>
     </linearGradient>
     <linearGradient id="avp4-line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1E6BFF" stop-opacity="0"/><stop offset=".5" stop-color="#3D9BFF"/><stop offset="1" stop-color="#5CD6FF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/><stop offset=".5" stop-color="#B197FC"/><stop offset="1" stop-color="#E879F9" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="avp4-aura" cx=".5" cy=".5" r=".5">
-      <stop offset="0" stop-color="#1E6BFF" stop-opacity=".35"/><stop offset="1" stop-color="#1E6BFF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".35"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
     <pattern id="avp4-grid" width="26" height="26" patternUnits="userSpaceOnUse">
-      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#3D9BFF" stroke-opacity=".07" stroke-width=".6"/>
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#B197FC" stroke-opacity=".07" stroke-width=".6"/>
     </pattern>
     <filter id="avp4-glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4"/></filter>
     <clipPath id="avp4-clip"><rect width="1200" height="214" rx="16"/></clipPath>
-    <linearGradient id="avp4-num" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5CD6FF"/><stop offset="1" stop-color="#1448C8"/></linearGradient>
+    <linearGradient id="avp4-num" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E879F9"/><stop offset="1" stop-color="#5B2BD6"/></linearGradient>
   </defs>
   <g clip-path="url(#avp4-clip)">
     <rect width="1200" height="214" fill="url(#avp4-bg)"/>
     <rect width="1200" height="214" fill="url(#avp4-grid)"/>
   </g>
   <circle cx="1010" cy="107" r="150" fill="url(#avp4-aura)"/>
-  <g transform="translate(1010 107)"><rect x="-140" y="-44" width="150" height="6" rx="3" fill="#BFE0FF" fill-opacity=".35"/><rect x="-140" y="-26" width="128" height="6" rx="3" fill="#BFE0FF" fill-opacity=".35"/><rect x="-140" y="-8" width="110" height="6" rx="3" fill="#BFE0FF" fill-opacity=".35"/>
-    <rect x="-140" y="-26" width="86" height="6" rx="3" fill="#5CD6FF" fill-opacity=".95"/>
-    <rect x="-146" y="-31" width="98" height="16" rx="4" fill="none" stroke="#5CD6FF" stroke-dasharray="3 3"/>
-    <path d="M -50 -22 C -10 -22, -10 22, 20 22" stroke="#5CD6FF" stroke-width="1.6" stroke-dasharray="4 4" fill="none"/>
-    <rect x="20" y="-12" width="124" height="68" rx="12" fill="#1E6BFF" fill-opacity=".25" stroke="#3D9BFF"/>
-    <rect x="34" y="4" width="84" height="5" rx="2.5" fill="#EEF6FF" fill-opacity=".8"/><rect x="34" y="20" width="96" height="5" rx="2.5" fill="#EEF6FF" fill-opacity=".8"/><rect x="34" y="36" width="60" height="5" rx="2.5" fill="#EEF6FF" fill-opacity=".8"/></g>
+  <g transform="translate(1010 107)"><rect x="-140" y="-44" width="150" height="6" rx="3" fill="#E9DDFF" fill-opacity=".35"/><rect x="-140" y="-26" width="128" height="6" rx="3" fill="#E9DDFF" fill-opacity=".35"/><rect x="-140" y="-8" width="110" height="6" rx="3" fill="#E9DDFF" fill-opacity=".35"/>
+    <rect x="-140" y="-26" width="86" height="6" rx="3" fill="#E879F9" fill-opacity=".95"/>
+    <rect x="-146" y="-31" width="98" height="16" rx="4" fill="none" stroke="#E879F9" stroke-dasharray="3 3"/>
+    <path d="M -50 -22 C -10 -22, -10 22, 20 22" stroke="#E879F9" stroke-width="1.6" stroke-dasharray="4 4" fill="none"/>
+    <rect x="20" y="-12" width="124" height="68" rx="12" fill="#8B5CF6" fill-opacity=".25" stroke="#B197FC"/>
+    <rect x="34" y="4" width="84" height="5" rx="2.5" fill="#F7F2FF" fill-opacity=".8"/><rect x="34" y="20" width="96" height="5" rx="2.5" fill="#F7F2FF" fill-opacity=".8"/><rect x="34" y="36" width="60" height="5" rx="2.5" fill="#F7F2FF" fill-opacity=".8"/></g>
   <text x="32" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" fill="url(#avp4-num)" fill-opacity=".9">04</text>
-  <text x="130" y="42" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#3D9BFF">CHROME EXTENSION · AI</text>
-  <text x="130" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#EEF6FF">ELI5</text>
-  <text x="130" y="106" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#BFE0FF" fill-opacity=".88">Simplifies complex text on any page. Select text or snip the screen, pick a persona and</text>
-  <text x="130" y="128" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#BFE0FF" fill-opacity=".88">format, then simplify or expand further. A FastAPI backend keeps API keys off the client.</text>
-  <rect x="130" y="158" width="95" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="177.5" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">JavaScript</text><rect x="233" y="158" width="102" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="284" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Manifest V3</text><rect x="343" y="158" width="74" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="380" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">FastAPI</text><rect x="425" y="158" width="109" height="24" rx="12" fill="#1E6BFF" fill-opacity=".12" stroke="#3D9BFF" stroke-opacity=".45"/>
-    <text x="479.5" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#BFE0FF">Tesseract.js</text>
+  <text x="130" y="42" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#B197FC">CHROME EXTENSION · AI</text>
+  <text x="130" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#F7F2FF">ELI5</text>
+  <text x="130" y="106" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#E9DDFF" fill-opacity=".88">Simplifies complex text on any page. Select text or snip the screen, pick a persona and</text>
+  <text x="130" y="128" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#E9DDFF" fill-opacity=".88">format, then simplify or expand further. A FastAPI backend keeps API keys off the client.</text>
+  <rect x="130" y="158" width="95" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="177.5" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">JavaScript</text><rect x="233" y="158" width="102" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="284" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Manifest V3</text><rect x="343" y="158" width="74" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="380" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">FastAPI</text><rect x="425" y="158" width="109" height="24" rx="12" fill="#8B5CF6" fill-opacity=".12" stroke="#B197FC" stroke-opacity=".45"/>
+    <text x="479.5" y="174" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E9DDFF">Tesseract.js</text>
   <rect x=".75" y=".75" width="1198.5" height="212.5" rx="15.25" fill="none" stroke="url(#avp4-edge)" stroke-width="1.5"/>
 </svg>

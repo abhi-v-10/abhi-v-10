@@ -2,19 +2,19 @@
   <title id="avr-t">Achievements: Best Team Member Award from the NIAT Student General Council, April 2026. Certificate of Internship from Nestafar Technologies, April 2026. INSPIRA'25 24-hour hackathon at IIT Hyderabad, 2025. UI/UX Mega Workshop by NxtWave, December 2024. BuildWithIndia Hackathon participation with HackWithIndia and Google.</title>
   <defs>
     <linearGradient id="avr-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#030A1C"/><stop offset=".6" stop-color="#071634"/><stop offset="1" stop-color="#0A1F4D"/>
+      <stop offset="0" stop-color="#08051A"/><stop offset=".6" stop-color="#120A2B"/><stop offset="1" stop-color="#22104F"/>
     </linearGradient>
     <linearGradient id="avr-edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1E6BFF" stop-opacity=".85"/><stop offset=".5" stop-color="#0B2A66" stop-opacity=".6"/><stop offset="1" stop-color="#5CD6FF" stop-opacity=".7"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".85"/><stop offset=".5" stop-color="#2B1263" stop-opacity=".6"/><stop offset="1" stop-color="#E879F9" stop-opacity=".7"/>
     </linearGradient>
     <linearGradient id="avr-line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1E6BFF" stop-opacity="0"/><stop offset=".5" stop-color="#3D9BFF"/><stop offset="1" stop-color="#5CD6FF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/><stop offset=".5" stop-color="#B197FC"/><stop offset="1" stop-color="#E879F9" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="avr-aura" cx=".5" cy=".5" r=".5">
-      <stop offset="0" stop-color="#1E6BFF" stop-opacity=".35"/><stop offset="1" stop-color="#1E6BFF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".35"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
     <pattern id="avr-grid" width="26" height="26" patternUnits="userSpaceOnUse">
-      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#3D9BFF" stroke-opacity=".07" stroke-width=".6"/>
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#B197FC" stroke-opacity=".07" stroke-width=".6"/>
     </pattern>
     <filter id="avr-glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4"/></filter>
     <clipPath id="avr-clip"><rect width="1200" height="328" rx="16"/></clipPath></defs>
@@ -22,44 +22,44 @@
     <rect width="1200" height="328" fill="url(#avr-bg)"/>
     <rect width="1200" height="328" fill="url(#avr-grid)"/>
   </g><g transform="translate(24 24)">
-      <rect width="368" height="130" rx="12" fill="#1E6BFF" fill-opacity=".07" stroke="#3D9BFF" stroke-opacity=".3"/>
-      <circle cx="46" cy="65" r="26" fill="#1E6BFF" fill-opacity=".18" stroke="url(#avr-edge)" stroke-width="1.5"/>
-      <circle cx="46" cy="65" r="26" fill="#1E6BFF" fill-opacity=".45" filter="url(#avr-glow)"/>
-      <text x="46" y="71" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#EEF6FF">★</text>
-      <text x="92" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#EEF6FF">Best Team Member Award</text>
-      <text x="92" y="75" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#BFE0FF" fill-opacity=".9">Core Team Member, 2024 – 2026</text>
-      <text x="92" y="98" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#3D9BFF">NIAT Student General Council · Apr 2026</text>
+      <rect width="368" height="130" rx="12" fill="#8B5CF6" fill-opacity=".07" stroke="#B197FC" stroke-opacity=".3"/>
+      <circle cx="46" cy="65" r="26" fill="#8B5CF6" fill-opacity=".18" stroke="url(#avr-edge)" stroke-width="1.5"/>
+      <circle cx="46" cy="65" r="26" fill="#8B5CF6" fill-opacity=".45" filter="url(#avr-glow)"/>
+      <text x="46" y="71" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#F7F2FF">★</text>
+      <text x="92" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#F7F2FF">Best Team Member Award</text>
+      <text x="92" y="75" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#E9DDFF" fill-opacity=".9">Core Team Member, 2024 – 2026</text>
+      <text x="92" y="98" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#B197FC">NIAT Student General Council · Apr 2026</text>
     </g><g transform="translate(416 24)">
-      <rect width="368" height="130" rx="12" fill="#1E6BFF" fill-opacity=".07" stroke="#3D9BFF" stroke-opacity=".3"/>
-      <circle cx="46" cy="65" r="26" fill="#1E6BFF" fill-opacity=".18" stroke="url(#avr-edge)" stroke-width="1.5"/>
-      <circle cx="46" cy="65" r="26" fill="#1E6BFF" fill-opacity=".45" filter="url(#avr-glow)"/>
-      <text x="46" y="71" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#EEF6FF">✓</text>
-      <text x="92" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#EEF6FF">Certificate of Internship</text>
-      <text x="92" y="75" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#BFE0FF" fill-opacity=".9">AI Backend, three months</text>
-      <text x="92" y="98" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#3D9BFF">Nestafar Technologies · Apr 2026</text>
+      <rect width="368" height="130" rx="12" fill="#8B5CF6" fill-opacity=".07" stroke="#B197FC" stroke-opacity=".3"/>
+      <circle cx="46" cy="65" r="26" fill="#8B5CF6" fill-opacity=".18" stroke="url(#avr-edge)" stroke-width="1.5"/>
+      <circle cx="46" cy="65" r="26" fill="#8B5CF6" fill-opacity=".45" filter="url(#avr-glow)"/>
+      <text x="46" y="71" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#F7F2FF">✓</text>
+      <text x="92" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#F7F2FF">Certificate of Internship</text>
+      <text x="92" y="75" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#E9DDFF" fill-opacity=".9">AI Backend, three months</text>
+      <text x="92" y="98" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#B197FC">Nestafar Technologies · Apr 2026</text>
     </g><g transform="translate(808 24)">
-      <rect width="368" height="130" rx="12" fill="#1E6BFF" fill-opacity=".07" stroke="#3D9BFF" stroke-opacity=".3"/>
-      <circle cx="46" cy="65" r="26" fill="#1E6BFF" fill-opacity=".18" stroke="url(#avr-edge)" stroke-width="1.5"/>
-      <circle cx="46" cy="65" r="26" fill="#1E6BFF" fill-opacity=".45" filter="url(#avr-glow)"/>
-      <text x="46" y="71" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="600" fill="#EEF6FF">&lt;/&gt;</text>
-      <text x="92" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#EEF6FF">INSPIRA'25</text>
-      <text x="92" y="75" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#BFE0FF" fill-opacity=".9">24-hour hackathon participation</text>
-      <text x="92" y="98" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#3D9BFF">IIT Hyderabad · Forge Alumnus · 2025</text>
+      <rect width="368" height="130" rx="12" fill="#8B5CF6" fill-opacity=".07" stroke="#B197FC" stroke-opacity=".3"/>
+      <circle cx="46" cy="65" r="26" fill="#8B5CF6" fill-opacity=".18" stroke="url(#avr-edge)" stroke-width="1.5"/>
+      <circle cx="46" cy="65" r="26" fill="#8B5CF6" fill-opacity=".45" filter="url(#avr-glow)"/>
+      <text x="46" y="71" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="600" fill="#F7F2FF">&lt;/&gt;</text>
+      <text x="92" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#F7F2FF">INSPIRA'25</text>
+      <text x="92" y="75" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#E9DDFF" fill-opacity=".9">24-hour hackathon participation</text>
+      <text x="92" y="98" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#B197FC">IIT Hyderabad · Forge Alumnus · 2025</text>
     </g><g transform="translate(220 174)">
-      <rect width="368" height="130" rx="12" fill="#1E6BFF" fill-opacity=".07" stroke="#3D9BFF" stroke-opacity=".3"/>
-      <circle cx="46" cy="65" r="26" fill="#1E6BFF" fill-opacity=".18" stroke="url(#avr-edge)" stroke-width="1.5"/>
-      <circle cx="46" cy="65" r="26" fill="#1E6BFF" fill-opacity=".45" filter="url(#avr-glow)"/>
-      <text x="46" y="71" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#EEF6FF">◇</text>
-      <text x="92" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#EEF6FF">UI/UX Mega Workshop</text>
-      <text x="92" y="75" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#BFE0FF" fill-opacity=".9">Redesigned an app end to end in Figma</text>
-      <text x="92" y="98" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#3D9BFF">NxtWave · Dec 2024</text>
+      <rect width="368" height="130" rx="12" fill="#8B5CF6" fill-opacity=".07" stroke="#B197FC" stroke-opacity=".3"/>
+      <circle cx="46" cy="65" r="26" fill="#8B5CF6" fill-opacity=".18" stroke="url(#avr-edge)" stroke-width="1.5"/>
+      <circle cx="46" cy="65" r="26" fill="#8B5CF6" fill-opacity=".45" filter="url(#avr-glow)"/>
+      <text x="46" y="71" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#F7F2FF">◇</text>
+      <text x="92" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#F7F2FF">UI/UX Mega Workshop</text>
+      <text x="92" y="75" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#E9DDFF" fill-opacity=".9">Redesigned an app end to end in Figma</text>
+      <text x="92" y="98" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#B197FC">NxtWave · Dec 2024</text>
     </g><g transform="translate(612 174)">
-      <rect width="368" height="130" rx="12" fill="#1E6BFF" fill-opacity=".07" stroke="#3D9BFF" stroke-opacity=".3"/>
-      <circle cx="46" cy="65" r="26" fill="#1E6BFF" fill-opacity=".18" stroke="url(#avr-edge)" stroke-width="1.5"/>
-      <circle cx="46" cy="65" r="26" fill="#1E6BFF" fill-opacity=".45" filter="url(#avr-glow)"/>
-      <text x="46" y="71" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#EEF6FF">⚡</text>
-      <text x="92" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#EEF6FF">BuildWithIndia Hackathon</text>
-      <text x="92" y="75" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#BFE0FF" fill-opacity=".9">Participation certificate</text>
-      <text x="92" y="98" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#3D9BFF">HackWithIndia · Google</text>
+      <rect width="368" height="130" rx="12" fill="#8B5CF6" fill-opacity=".07" stroke="#B197FC" stroke-opacity=".3"/>
+      <circle cx="46" cy="65" r="26" fill="#8B5CF6" fill-opacity=".18" stroke="url(#avr-edge)" stroke-width="1.5"/>
+      <circle cx="46" cy="65" r="26" fill="#8B5CF6" fill-opacity=".45" filter="url(#avr-glow)"/>
+      <text x="46" y="71" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="600" fill="#F7F2FF">⚡</text>
+      <text x="92" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="19" fill="#F7F2FF">BuildWithIndia Hackathon</text>
+      <text x="92" y="75" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#E9DDFF" fill-opacity=".9">Participation certificate</text>
+      <text x="92" y="98" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#B197FC">HackWithIndia · Google</text>
     </g><rect x=".75" y=".75" width="1198.5" height="326.5" rx="15.25" fill="none" stroke="url(#avr-edge)" stroke-width="1.5"/>
 </svg>

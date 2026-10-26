@@ -2,19 +2,19 @@
   <title id="ava-t">B.Tech Computer Science 3rd year at Chaitanya Deemed to be University with NIAT, 2024 to 2028, GPA 9.3. AI Backend Engineer Intern at Nestafar Technologies, January to March 2026. Exploring advanced AI agents, LLM app architecture, retrieval systems, Three.js and WebGL, cloud deployment and DSA in C++.</title>
   <defs>
     <linearGradient id="ava-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#030A1C"/><stop offset=".6" stop-color="#071634"/><stop offset="1" stop-color="#0A1F4D"/>
+      <stop offset="0" stop-color="#08051A"/><stop offset=".6" stop-color="#120A2B"/><stop offset="1" stop-color="#22104F"/>
     </linearGradient>
     <linearGradient id="ava-edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1E6BFF" stop-opacity=".85"/><stop offset=".5" stop-color="#0B2A66" stop-opacity=".6"/><stop offset="1" stop-color="#5CD6FF" stop-opacity=".7"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".85"/><stop offset=".5" stop-color="#2B1263" stop-opacity=".6"/><stop offset="1" stop-color="#E879F9" stop-opacity=".7"/>
     </linearGradient>
     <linearGradient id="ava-line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1E6BFF" stop-opacity="0"/><stop offset=".5" stop-color="#3D9BFF"/><stop offset="1" stop-color="#5CD6FF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/><stop offset=".5" stop-color="#B197FC"/><stop offset="1" stop-color="#E879F9" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="ava-aura" cx=".5" cy=".5" r=".5">
-      <stop offset="0" stop-color="#1E6BFF" stop-opacity=".35"/><stop offset="1" stop-color="#1E6BFF" stop-opacity="0"/>
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".35"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
     <pattern id="ava-grid" width="26" height="26" patternUnits="userSpaceOnUse">
-      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#3D9BFF" stroke-opacity=".07" stroke-width=".6"/>
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#B197FC" stroke-opacity=".07" stroke-width=".6"/>
     </pattern>
     <filter id="ava-glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4"/></filter>
     <clipPath id="ava-clip"><rect width="1200" height="250" rx="16"/></clipPath></defs>
@@ -23,30 +23,30 @@
     <rect width="1200" height="250" fill="url(#ava-grid)"/>
   </g>
     <g transform="translate(24 24)">
-      <rect width="352" height="202" rx="12" fill="#1E6BFF" fill-opacity=".07" stroke="#3D9BFF" stroke-opacity=".3"/>
-      <circle cx="26" cy="30" r="5" fill="#5CD6FF"/><circle cx="26" cy="30" r="11" fill="#5CD6FF" fill-opacity=".5" filter="url(#ava-glow)"/>
-      <text x="44" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#3D9BFF">EDUCATION</text>
-      <text x="22" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#EEF6FF">B.Tech, Computer Science</text>
-      <text x="22" y="112" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#BFE0FF" fill-opacity="0.8">Chaitanya Deemed to be University,</text>
-      <text x="22" y="138" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#BFE0FF" fill-opacity="0.8">with NIAT · Hyderabad</text>
-      <text x="22" y="164" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#BFE0FF" fill-opacity="1">2024 – 2028 · 3rd year · GPA 9.3</text>
+      <rect width="352" height="202" rx="12" fill="#8B5CF6" fill-opacity=".07" stroke="#B197FC" stroke-opacity=".3"/>
+      <circle cx="26" cy="30" r="5" fill="#E879F9"/><circle cx="26" cy="30" r="11" fill="#E879F9" fill-opacity=".5" filter="url(#ava-glow)"/>
+      <text x="44" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#B197FC">EDUCATION</text>
+      <text x="22" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#F7F2FF">B.Tech, Computer Science</text>
+      <text x="22" y="112" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#E9DDFF" fill-opacity="0.8">Chaitanya Deemed to be University,</text>
+      <text x="22" y="138" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#E9DDFF" fill-opacity="0.8">with NIAT · Hyderabad</text>
+      <text x="22" y="164" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#E9DDFF" fill-opacity="1">2024 – 2028 · 3rd year · GPA 9.3</text>
     </g>
     <g transform="translate(424 24)">
-      <rect width="352" height="202" rx="12" fill="#1E6BFF" fill-opacity=".07" stroke="#3D9BFF" stroke-opacity=".3"/>
-      <circle cx="26" cy="30" r="5" fill="#5CD6FF"/><circle cx="26" cy="30" r="11" fill="#5CD6FF" fill-opacity=".5" filter="url(#ava-glow)"/>
-      <text x="44" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#3D9BFF">EXPERIENCE</text>
-      <text x="22" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#EEF6FF">AI Backend Engineer Intern</text>
-      <text x="22" y="112" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#BFE0FF" fill-opacity="0.8">Nestafar Technologies · Jan – Mar 2026</text>
-      <text x="22" y="138" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#BFE0FF" fill-opacity="0.8">AI agents on live backend data with</text>
-      <text x="22" y="164" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#BFE0FF" fill-opacity="1">Python, Django, FastAPI and FastMCP</text>
+      <rect width="352" height="202" rx="12" fill="#8B5CF6" fill-opacity=".07" stroke="#B197FC" stroke-opacity=".3"/>
+      <circle cx="26" cy="30" r="5" fill="#E879F9"/><circle cx="26" cy="30" r="11" fill="#E879F9" fill-opacity=".5" filter="url(#ava-glow)"/>
+      <text x="44" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#B197FC">EXPERIENCE</text>
+      <text x="22" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#F7F2FF">AI Backend Engineer Intern</text>
+      <text x="22" y="112" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#E9DDFF" fill-opacity="0.8">Nestafar Technologies · Jan – Mar 2026</text>
+      <text x="22" y="138" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#E9DDFF" fill-opacity="0.8">AI agents on live backend data with</text>
+      <text x="22" y="164" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#E9DDFF" fill-opacity="1">Python, Django, FastAPI and FastMCP</text>
     </g>
     <g transform="translate(824 24)">
-      <rect width="352" height="202" rx="12" fill="#1E6BFF" fill-opacity=".07" stroke="#3D9BFF" stroke-opacity=".3"/>
-      <circle cx="26" cy="30" r="5" fill="#5CD6FF"/><circle cx="26" cy="30" r="11" fill="#5CD6FF" fill-opacity=".5" filter="url(#ava-glow)"/>
-      <text x="44" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#3D9BFF">EXPLORING NOW</text>
-      <text x="22" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#EEF6FF">Agents, retrieval, 3D web</text>
-      <text x="22" y="112" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#BFE0FF" fill-opacity="0.8">Advanced AI agents · LLM app design</text>
-      <text x="22" y="138" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#BFE0FF" fill-opacity="0.8">Retrieval systems · Three.js &amp; WebGL</text>
-      <text x="22" y="164" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#BFE0FF" fill-opacity="1">Cloud (AWS, Azure) · DSA in C++</text>
+      <rect width="352" height="202" rx="12" fill="#8B5CF6" fill-opacity=".07" stroke="#B197FC" stroke-opacity=".3"/>
+      <circle cx="26" cy="30" r="5" fill="#E879F9"/><circle cx="26" cy="30" r="11" fill="#E879F9" fill-opacity=".5" filter="url(#ava-glow)"/>
+      <text x="44" y="35" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#B197FC">EXPLORING NOW</text>
+      <text x="22" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#F7F2FF">Agents, retrieval, 3D web</text>
+      <text x="22" y="112" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#E9DDFF" fill-opacity="0.8">Advanced AI agents · LLM app design</text>
+      <text x="22" y="138" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#E9DDFF" fill-opacity="0.8">Retrieval systems · Three.js &amp; WebGL</text>
+      <text x="22" y="164" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#E9DDFF" fill-opacity="1">Cloud (AWS, Azure) · DSA in C++</text>
     </g><rect x=".75" y=".75" width="1198.5" height="248.5" rx="15.25" fill="none" stroke="url(#ava-edge)" stroke-width="1.5"/>
 </svg>
